@@ -1,0 +1,13 @@
+.DS_Store
+.idea/*
+_assets/*
+.history/*
+node_modules/*
+.sass-cache/*
+*.css.map
+package-lock.json
+npm-debug.log
+scss/partials/_header copy.scss
+scss/partials/_main copy.scss
+scss/partials/_footer copy.scss
+scss/partials/_samples.scss
