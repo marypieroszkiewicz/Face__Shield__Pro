@@ -97,13 +97,19 @@
 
     &-content {
       position: absolute;
-      right: 10px;
-      bottom: 0;
+      left: 76%;
+      transform: translateX(-76%);
+      bottom: 109px;
+      padding: 0 0 35px 62px;
+      border-left: 1px solid $shakespeare;
+      border-bottom: 1px solid $shakespeare;
+      font-size: 30px;
     }
-
+    
     &-title {
       color: $shakespeare;
       text-transform: uppercase;
+      padding-bottom: 56px;
     }
   }
 }
