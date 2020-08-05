@@ -112,6 +112,46 @@
       padding-bottom: 56px;
     }
   }
+
+  &__fourth {
+    display: flex;
+    width: 100%;
+
+    &-graphics {
+      width: 46.25%;
+    }
+
+    &-content {
+      display: flex;
+      flex-direction: column;
+      width: 53.75%;
+      padding: 110px 0 0 134px;
+    }
+
+    &-text {
+      font-size: 30px;
+      color: $scorpion;
+      white-space: pre-line;
+    }
+
+    &-list {
+      display: block;
+      padding-left: 35px;
+      border-left: 1px solid $shakespeare;
+      margin-left: 25px;
+      position: relative;
+
+      &::before {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: -223px;
+        width: 223px;
+        height: 1px;
+        background-color: $shakespeare;
+      }
+    }
+  }
 }
 
 
