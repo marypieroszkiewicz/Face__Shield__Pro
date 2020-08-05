@@ -1,0 +1,39 @@
+// ----------------------------------------------------
+// ----- VARIABLES -----
+// ----------------------------------------------------
+
+// --- Font ---
+$font-base: "Gill Sans", sans-serif;
+$font-second: "Helvetica", sans-serif;
+$font-third: "Segoe UI", sans-serif;
+
+// --- Colors ---
+$white: #fff;
+$black: #000;
+
+$mine-shaft: #343434;
+$viking: #5EC4D9;
+$tundora: #4B4B4B;
+$pacific-blue: #00A3C4;
+$shakespeare: #53AECC;
+$scorpion: #575757;
+$dove-gray: #707070;
+$sherpa-blue: #004A58;
+$zambezi: #606060;
+
+// --- Animation ---
+$animationSpeed: 40s;
+$animate-hover: all 0.2s ease-in-out;
+
+
+// --- Media Queries ---
+$mobile_land__640: "(min-width: 640px)";
+$tablet__768: "(min-width: 768px)";
+$tablet_land__1024: "(min-width: 1024px)";
+$desktop__1280: "(min-width: 1280px)";
+$large__screens__1440: "(min-width: 1440px)";
+$full__screens__1600: "(min-width: 1600px)";
+$HD__screens__1920: "(min-width: 1920px)";
+$max__screen__2560: "(min-width: 1921px) and (max-width: 2560px)";
+
+// ----- END OF VARIABLES -----
