@@ -44,6 +44,68 @@
       white-space: pre-line;
     }
   }
+
+  &__second {
+    position: relative;
+    min-height: 777px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+    &::before {
+      content: '';
+      background: url("../images/main__second-bg.png");
+      background-size: cover;
+      width: 100%;
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      z-index: -1;
+      height: 0;
+      padding-bottom: calc(777 / 1920 * 100%);
+    }
+
+    &-title {
+      color: $white;
+      font-size: 50px;
+      text-align: center;
+      text-transform: uppercase;
+      padding-bottom: 147px;
+    }
+  }
+
+  &__third {
+    position: relative;
+    min-height: 850px;
+
+    &::before {
+      content: '';
+      background: url("../images/main__third-bg.png");
+      background-size: cover;
+      width: 100%;
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      z-index: -1;
+      height: 0;
+      padding-bottom: calc(850 / 1920 * 100%);
+    }
+
+    &-content {
+      position: absolute;
+      right: 10px;
+      bottom: 0;
+    }
+
+    &-title {
+      color: $shakespeare;
+      text-transform: uppercase;
+    }
+  }
 }
 
 
