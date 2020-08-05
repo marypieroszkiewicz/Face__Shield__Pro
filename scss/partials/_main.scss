@@ -2,6 +2,50 @@
 /* ----- MAIN ----- */
 /* ---------------------------------------------------- */
 
+.main {
+  &__first {
+    position: relative;
+    min-height: 1270px;
+
+    &::before {
+      content: '';
+      background: url("../images/main__first-bg.png");
+      background-size: cover;
+      width: 100%;
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      z-index: -1;
+      height: 0;
+      padding-bottom: calc(1270 / 1920 * 100%);
+    }
+
+    &-content {
+      position: absolute;
+      left: 15%;
+      transform: translateX(-15%);
+      bottom: 212px;
+      text-align: right;
+      padding-bottom: 24px;
+      padding-right: 50px;
+      border-bottom: 1px solid $shakespeare;
+      border-right :1px solid $shakespeare;
+      font-size: 30px;
+    }
+
+    &-title {
+      color: $shakespeare;
+      text-transform: uppercase;
+    }
+
+    &-text {
+      white-space: pre-line;
+    }
+  }
+}
+
 
 @media #{$tablet__768} {
 }
