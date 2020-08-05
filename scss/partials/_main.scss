@@ -132,6 +132,7 @@
       font-size: 30px;
       color: $scorpion;
       white-space: pre-line;
+      padding-bottom: 100px;
     }
 
     &-list {
@@ -142,6 +143,16 @@
       position: relative;
 
       &::before {
+        content: 'Zalety';
+        display: block;
+        position: absolute;
+        left: -30px;
+        top: -50px;
+        color: $shakespeare;
+        font-size: 30px;
+      }
+
+      &::after {
         content: '';
         position: absolute;
         bottom: 0;
@@ -150,6 +161,10 @@
         height: 1px;
         background-color: $shakespeare;
       }
+    }
+    &-item {
+      font-size: 20px;
+      color: $dove-gray;
     }
   }
 }
