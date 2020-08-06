@@ -260,15 +260,18 @@
     background: $sherpa-blue;
     width: 100%;
     display: flex;
+    flex-direction: column;
 
     @media #{$max__screen__2560} {
+      position: relative;
       width: 100vw;
       left: 50%;
       transform: translateX(-50%);
     }
 
     &-title {
-      margin: 85px auto;
+      margin: 0 auto;
+      padding: 85px 0;
     }
   }
 }
