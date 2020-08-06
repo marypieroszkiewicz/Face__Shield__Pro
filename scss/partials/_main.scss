@@ -289,8 +289,27 @@
         }
       }
 
+      &__graphics {
+        padding: 35px 0;
+
+        &--1 {
+          padding-top: 67px;
+        }
+
+
+      }
+
       &__img {
         margin: 0 auto;
+      }
+
+      &__description {
+        text-align: center;
+        color: $white;
+        white-space: pre-line;
+        text-transform: uppercase;
+        font-size: 30px;
+        padding-top: 51px;
       }
     }
   }
