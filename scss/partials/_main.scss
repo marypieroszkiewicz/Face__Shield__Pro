@@ -272,6 +272,7 @@
     &-title {
       margin: 0 auto;
       padding: 85px 0;
+      width: 23.177083333333334%;
     }
 
     &-content {
@@ -324,6 +325,19 @@
       width: 100vw;
       left: 50%;
       transform: translateX(-50%);
+    }
+
+    &-content {
+      position: absolute;
+      bottom: 384px;
+      right: 453px;
+      width: 21.770833333333334%;
+
+      &__border {
+        padding: 39px 0 68px 48px;
+        border-top: 1px solid $pacific-blue;
+        border-left: 1px solid $pacific-blue;
+      }
     }
   }
 }
