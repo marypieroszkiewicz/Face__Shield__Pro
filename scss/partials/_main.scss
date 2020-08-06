@@ -3,24 +3,17 @@
 /* ---------------------------------------------------- */
 
 .main {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+
   &__first {
     position: relative;
-    min-height: 1270px;
-
-    &::before {
-      content: '';
-      background: url("../images/main__first-bg.png");
-      background-size: cover;
-      width: 100%;
-      position: absolute;
-      top: 0;
-      right: 0;
-      bottom: 0;
-      left: 0;
-      z-index: -1;
-      height: 0;
-      padding-bottom: calc(1270 / 1920 * 100%);
-    }
+    background: url("../images/main__first-bg.png");
+    background-size: cover;
+    width: 100%;
+    height: 0;
+    padding-bottom: calc(1270 / 1920 * 100%);
 
     &-content {
       position: absolute;
@@ -47,53 +40,31 @@
 
   &__second {
     position: relative;
-    min-height: 777px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-
-    &::before {
-      content: '';
-      background: url("../images/main__second-bg.png");
-      background-size: cover;
-      width: 100%;
-      position: absolute;
-      top: 0;
-      right: 0;
-      bottom: 0;
-      left: 0;
-      z-index: -1;
-      height: 0;
-      padding-bottom: calc(777 / 1920 * 100%);
-    }
+    background: url("../images/main__second-bg.png");
+    background-size: cover;
+    width: 100%;
+    height: 0;
+    padding-bottom: calc(777 / 1920 * 100%);
 
     &-title {
       color: $white;
       font-size: 50px;
       text-align: center;
       text-transform: uppercase;
-      padding-bottom: 147px;
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      bottom: 147px;
     }
   }
 
   &__third {
     position: relative;
-    min-height: 850px;
-
-    &::before {
-      content: '';
-      background: url("../images/main__third-bg.png");
-      background-size: cover;
-      width: 100%;
-      position: absolute;
-      top: 0;
-      right: 0;
-      bottom: 0;
-      left: 0;
-      z-index: -1;
-      height: 0;
-      padding-bottom: calc(850 / 1920 * 100%);
-    }
+    background: url("../images/main__third-bg.png");
+    background-size: cover;
+    width: 100%;
+    height: 0;
+    padding-bottom: calc(850 / 1920 * 100%);
 
     &-content {
       position: absolute;
@@ -171,25 +142,14 @@
 
   &__fifth {
     position: relative;
-
-    &::before {
-      content: '';
-      background: url("../images/main__fifth-bg.jpg");
-      background-size: cover;
-      width: 100%;
-      position: absolute;
-      top: 0;
-      right: 0;
-      bottom: 0;
-      left: 0;
-      z-index: -1;
-      height: 0;
-      padding-bottom: calc(1015 / 1920 * 100%);
-    }
+    background: url("../images/main__fifth-bg.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 0;
+    padding-bottom: calc(1015 / 1920 * 100%);
 
     &-content {
       position: absolute;
-      //top: 235px;
       top: 13.177vw;
       left: 12.083333333333333%;
       transform: translateX(-10%);
@@ -205,6 +165,61 @@
       font-size: 30px;
       text-transform: uppercase;
       white-space: pre-line;
+      display: block;
+    }
+  }
+
+  &__sixth {
+    position: relative;
+    background: url("../images/main__sixth-bg.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 0;
+    padding-bottom: calc(1080 / 1920 * 100%);
+
+    &-content {
+      position: absolute;
+      border-top: 1px solid $white;
+
+      &--1 {
+        top: 188px;
+        left: 411px;
+        padding: 25px 25px 61px 0;
+        border-right: 1px solid $white;
+        text-align: right;
+      }
+
+      &--2 {
+        left: 953px;
+        top: 143px;
+        padding: 29px 0 66px 29px;
+        border-left: 1px solid $white;
+      }
+
+      &--3 {
+        top: 266px;
+        right: 368px;
+        padding: 29px 0 42px 29px;
+        border-left: 1px solid $white;
+      }
+
+      &--4 {
+        top: 506px;
+        left: 466px;
+        text-align: right;
+        padding: 25px 25px 32px 0;
+        border-right: 1px solid $white;
+      }
+    }
+
+    &-text {
+      color: $white;
+      text-transform: uppercase;
+      white-space: pre-line;
+    }
+
+    &__seventh {
+
     }
   }
 }
