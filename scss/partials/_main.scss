@@ -280,12 +280,17 @@
 
       &__box {
         border: 3px solid $white;
+        border-radius: 10px;
         width: calc(100% / 3);
         margin-right: 156px;
 
         &--3 {
           margin-right: 0;
         }
+      }
+
+      &__img {
+        margin: 0 auto;
       }
     }
   }
