@@ -273,6 +273,21 @@
       margin: 0 auto;
       padding: 85px 0;
     }
+
+    &-content {
+      display: flex;
+      padding: 0 133px;
+
+      &__box {
+        border: 3px solid $white;
+        width: calc(100% / 3);
+        margin-right: 156px;
+
+        &--3 {
+          margin-right: 0;
+        }
+      }
+    }
   }
 }
 
