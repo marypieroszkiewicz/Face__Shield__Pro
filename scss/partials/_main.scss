@@ -254,9 +254,15 @@
       text-transform: uppercase;
       white-space: pre-line;
     }
+  }
 
-    &__seventh {
+  &__seventh {
+    background: $sherpa-blue;
+    width: 100%;
+    display: flex;
 
+    &-title {
+      margin: 85px auto;
     }
   }
 }
