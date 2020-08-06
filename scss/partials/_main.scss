@@ -162,9 +162,49 @@
         background-color: $shakespeare;
       }
     }
+
     &-item {
       font-size: 20px;
       color: $dove-gray;
+    }
+  }
+
+  &__fifth {
+    position: relative;
+
+    &::before {
+      content: '';
+      background: url("../images/main__fifth-bg.jpg");
+      background-size: cover;
+      width: 100%;
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      z-index: -1;
+      height: 0;
+      padding-bottom: calc(1015 / 1920 * 100%);
+    }
+
+    &-content {
+      position: absolute;
+      //top: 235px;
+      top: 13.177vw;
+      left: 12.083333333333333%;
+      transform: translateX(-10%);
+      padding-top: 30px;
+      padding-right: 40px;
+      border-top: 1px solid $shakespeare;
+      border-right: 1px solid $shakespeare;
+      text-align: right;
+    }
+
+    &-text {
+      color: $shakespeare;
+      font-size: 30px;
+      text-transform: uppercase;
+      white-space: pre-line;
     }
   }
 }
