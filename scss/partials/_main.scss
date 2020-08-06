@@ -261,6 +261,12 @@
     width: 100%;
     display: flex;
 
+    @media #{$max__screen__2560} {
+      width: 100vw;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+
     &-title {
       margin: 85px auto;
     }
