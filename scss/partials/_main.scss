@@ -219,34 +219,32 @@
       border-top: 1px solid $white;
 
       &--1 {
-        top: 188px;
-        left: 411px;
-        //top: 141px;
-        //left: 257px;
-        padding: 25px 25px 61px 0;
+        top: 165px;
+        left: 257px;
+        padding: 25px 25px 42px 0;
         border-right: 1px solid $white;
         text-align: right;
       }
 
       &--2 {
+        top: 160px;
         left: 953px;
-        top: 143px;
-        padding: 29px 0 66px 29px;
+        padding: 29px 0 42px 29px;
         border-left: 1px solid $white;
       }
 
       &--3 {
-        top: 266px;
-        right: 368px;
+        top: 255px;
+        right: 178px;
         padding: 29px 0 42px 29px;
         border-left: 1px solid $white;
       }
 
       &--4 {
-        top: 506px;
-        left: 466px;
+        top: 482px;
+        left: 363px;
         text-align: right;
-        padding: 25px 25px 32px 0;
+        padding: 25px 25px 42px 0;
         border-right: 1px solid $white;
       }
     }
