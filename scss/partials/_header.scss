@@ -20,8 +20,8 @@
   background-size: cover;
   background-position: center;
   width: 100%;
-  padding-bottom: calc(1281 / 1920 * 100%);
   height: 0;
+  padding-bottom: calc(1281 / 1920 * 100%);
 
   @media #{$HD__screens__1920} {
     padding-bottom: calc(1186 / 1920 * 100%);

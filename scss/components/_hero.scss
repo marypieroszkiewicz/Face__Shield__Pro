@@ -2,11 +2,16 @@
 
 
 .parallax {
-  background: url("../images/parallax.jpg");
-  background-position: 0 0;
+  background-image: url("../images/parallax.jpg");
   background-repeat: no-repeat;
-  height: 895px;
+  background-position: 0 0;
+  height: 46.615vw;
   width: 100%;
+
+  @media #{$max__screen__2560} {
+    background-image: url("../images/parallax-2560.jpg");
+    height: 42.188vw;
+  }
 
   &__title {
     position: relative;
