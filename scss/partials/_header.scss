@@ -28,6 +28,10 @@
     padding-bottom: calc(2000 / 1920 * 100%);
   }
 
+  @media #{$tablet__768} {
+    padding-bottom: calc(1700 / 1920 * 100%);
+  }
+
   @media #{$HD__screens__1920} {
     padding-bottom: calc(1186 / 1920 * 100%);
   }
@@ -293,6 +297,12 @@
       left: 30px;
     }
 
+    @media #{$tablet__768} {
+      width: 30%;
+      top: 90px;
+      left: 60px;
+    }
+
     @media #{$HD__screens__1920} {
       width: 10%;
       //top: 195px;
@@ -313,6 +323,10 @@
       right: 27px;
     }
 
+    @media #{$tablet__768} {
+      width: 30%;
+    }
+
     @media #{$HD__screens__1920} {
       width: 10%;
       //top: 550px;
@@ -330,6 +344,10 @@
 
       @media #{$mobile_land__640} {
         padding: 15px 15px 15px 0;
+      }
+
+      @media #{$tablet__768} {
+        padding: 20px 20px 20px 0;
       }
 
       @media #{$HD__screens__1920} {
