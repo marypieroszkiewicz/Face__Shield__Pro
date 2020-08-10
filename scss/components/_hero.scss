@@ -1,12 +1,13 @@
 /* ----- HERO ----- */
 
-
 .parallax {
   background-image: url("../images/parallax.jpg");
   background-repeat: no-repeat;
   background-position: 0 0;
-  height: 46.615vw;
   width: 100%;
+  height: 46.615vw;
+
+  display: none;
 
   @media #{$max__screen__2560} {
     background-image: url("../images/parallax-2560.jpg");
