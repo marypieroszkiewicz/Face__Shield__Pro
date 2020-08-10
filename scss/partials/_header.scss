@@ -16,14 +16,30 @@
 
 .header {
   position: relative;
-  background: url("../images/header-bg.png");
+  background: url("../images/header-bg.jpg");
   background-size: cover;
+  background-position: center;
   width: 100%;
-  padding-bottom: calc(1186 / 1920 * 100%);
+  padding-bottom: calc(1281 / 1920 * 100%);
+
+  @media #{$HD__screens__1920} {
+    padding-bottom: calc(1186 / 1920 * 100%);
+  }
+
+
+  @media #{$max__screen__2560} {
+    padding-bottom: calc(1281 / 1920 * 100%);
+  }
+
 }
 
 .navigation {
   position: relative;
+  background-color: $white;
+
+  @media #{$tablet_land__1024} {
+    background-color: transparent;
+  }
 
   @media #{$desktop__1280} {
   }
@@ -102,7 +118,7 @@
   z-index: 4;
 
   &:hover .hamburger__line {
-    //background-color: $fun-blue;
+    background-color: $viking;
   }
 
   @media #{$mobile_land__640} {
@@ -131,7 +147,7 @@
     position: absolute;
     height: 2px;
     width: 100%;
-    //background-color: $fun-blue;
+    background-color: $viking;
     border-radius: 9px;
     opacity: 1;
     left: 0;
@@ -165,12 +181,12 @@
 
   .hamburger__line:nth-child(2) {
     transform: rotate(45deg);
-    //background-color: $fun-blue;
+    background-color: $viking;
   }
 
   .hamburger__line:nth-child(3) {
     transform: rotate(-45deg);
-    //background-color: $fun-blue;
+    background-color: $viking;
   }
 
   .hamburger__line:nth-child(4) {
@@ -189,6 +205,7 @@
   left: 0;
   width: 100%;
   z-index: 3;
+  background-color: $white;
 
   @media #{$tablet_land__1024} {
     overflow: visible;
@@ -227,11 +244,12 @@
     text-align: center;
     text-decoration: none;
     text-transform: uppercase;
-    font-size: rem(20px);
+    font-size: rem(18px);
     color: $mine-shaft;
     position: relative;
 
     @media #{$tablet_land__1024} {
+      font-size: rem(20px);
     }
 
     @media #{$desktop__1280} {
@@ -254,105 +272,6 @@
     &.active {
       color: $viking;
     }
-
-    //&::before,
-    //&::after {
-    //  content: "";
-    //  display: inline-block;
-    //  position: absolute;
-    //  height: 3px;
-    //  width: 0;
-    //  bottom: 0;
-    //  background-color: blue;
-    //  transition: 0.4s ease-out all .1s;
-    //  transform-origin: center;
-    //}
-
-    //&::before {
-    //  left: 50%;
-    //}
-
-    //&::after {
-    //  right: 50%;
-    //}
-
-    //&:hover::before,
-    //&:hover::after {
-    //  width: 25%;
-    //  transition: 0.5s ease all;
-    //
-    //  @media #{$mobile_land__640} {
-    //    width: 20%;
-    //  }
-    //
-    //  @media #{$tablet_land__1024} {
-    //    width: 50%;
-    //  }
-    //}
-
-    //&:hover::before {
-    //  left: 25%;
-    //
-    //  @media #{$mobile_land__640} {
-    //    left: 45%;
-    //  }
-    //
-    //  @media #{$tablet_land__1024} {
-    //    left: 50%;
-    //  }
-    //}
-
-    //&:hover::after {
-    //  right: 25%;
-    //
-    //  @media #{$mobile_land__640} {
-    //    right: 45%;
-    //  }
-    //  @media #{$tablet_land__1024} {
-    //    right: 50%;
-    //  }
-    //}
-
-    //&.active::before,
-    //&.active::after {
-    //  content: "";
-    //  display: inline-block;
-    //  position: absolute;
-    //  bottom: 0;
-    //  height: 3px;
-    //  width: 25%;
-    //  background-color: $fun-blue;
-    //
-    //  @media #{$mobile_land__640} {
-    //    width: 20%;
-    //  }
-    //
-    //  @media #{$tablet_land__1024} {
-    //    width: 50%;
-    //  }
-    //}
-
-    //&.active::before {
-    //  left: 25%;
-    //  @media #{$mobile_land__640} {
-    //    left: 45%;
-    //  }
-    //
-    //  @media #{$tablet_land__1024} {
-    //    left: 50%;
-    //  }
-    //}
-    //
-    //&.active::after {
-    //  right: 25%;
-    //
-    //  @media #{$mobile_land__640} {
-    //    right: 45%;
-    //  }
-    //  @media #{$tablet_land__1024} {
-    //    right: 50%;
-    //  }
-    //}
   }
 }
 
@@ -396,7 +315,11 @@
     text-align: center;
     color: $tundora;
     font-family: $font-second;
-    font-size: 25px;
+    font-size: 14px;
+
+    @media #{$HD__screens__1920} {
+      font-size: 25px;
+    }
 
     &-text {
       white-space: pre-line;
@@ -404,7 +327,10 @@
       &--uppercase {
         text-transform: uppercase;
         display: inline-block;
-        padding-bottom: 42px;
+
+        @media #{$HD__screens__1920} {
+          padding-bottom: 42px;
+        }
       }
 
       &--color {
