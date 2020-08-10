@@ -262,12 +262,13 @@
     }
 
     @media #{$HD__screens__1920} {
-      padding: 0 67px 0 0;
+      padding: rem(0 67px 0 0);
 
       &--5 {
         padding: 0;
       }
     }
+
 
     &.active {
       color: $viking;

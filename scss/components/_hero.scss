@@ -1,16 +1,19 @@
 /* ----- HERO ----- */
 
-.hero {
-  background: url("../images/parallax.jpeg");
+
+.parallax {
+  background: url("../images/parallax.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 895px;
   width: 100%;
-  background-size: cover;
-  height: 100vh;
-  position: relative;
 
   &__title {
-    position: absolute;
-    bottom: 183px;
-    text-align: center;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: center;
     width: 100%;
     font-size: 50px;
     text-transform: uppercase;
