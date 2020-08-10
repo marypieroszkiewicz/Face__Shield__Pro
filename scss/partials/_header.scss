@@ -363,7 +363,7 @@
 
     @media #{$mobile_land__640} {
       font-size: 18px;
-  }
+    }
 
     @media #{$HD__screens__1920} {
       position: absolute;
@@ -388,8 +388,9 @@
         padding: 15px 0 20px;
         color: $pacific-blue;
 
-
-        padding: 20px 0 30px;
+        @media #{$mobile_land__640} {
+          padding: 20px 0 30px;
+        }
 
         @media #{$HD__screens__1920} {
           padding: 36px 0 56px;
