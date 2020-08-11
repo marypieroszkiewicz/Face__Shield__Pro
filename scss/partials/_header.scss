@@ -36,6 +36,16 @@
     padding-bottom: calc(1500 / 1920 * 100%);
   }
 
+  @media #{$desktop__1280} {
+    padding-bottom: calc(1300 / 1920 * 100%);
+  }
+
+  @media #{$large__screens__1440} {
+  }
+
+  @media #{$full__screens__1600} {
+  }
+
   @media #{$HD__screens__1920} {
     padding-bottom: calc(1186 / 1920 * 100%);
   }
@@ -107,6 +117,7 @@
 
   @media #{$tablet_land__1024} {
     width: 25%;
+    margin-top: -5px;
   }
 
   @media #{$desktop__1280} {
@@ -308,8 +319,14 @@
     }
 
     @media #{$tablet_land__1024} {
-      width: 25%;
+      width: 23%;
       top: 115px;
+      left: 90px;
+    }
+
+    @media #{$desktop__1280} {
+      width: 18%;
+      top: 230px;
       left: 108px;
     }
 
@@ -339,8 +356,14 @@
     }
 
     @media #{$tablet_land__1024} {
-      width: 25%;
-      top: 282px;
+      width: 23%;
+      top: 297px;
+      right: 40px;
+    }
+
+    @media #{$desktop__1280} {
+      width: 18%;
+      top: 477px;
       right: 50px;
     }
 
@@ -367,6 +390,10 @@
         padding: 18px 18px 18px 0;
       }
 
+      @media #{$desktop__1280} {
+        padding: 20px 20px 20px 0;
+      }
+
       @media #{$HD__screens__1920} {
         padding: 28px 28px 28px 0;
       }
@@ -382,6 +409,10 @@
 
       @media #{$tablet__768} {
         padding: 18px 0 18px 18px;
+      }
+
+      @media #{$desktop__1280} {
+        padding: 20px 0 20px 20px;
       }
 
       @media #{$HD__screens__1920} {
@@ -412,10 +443,13 @@
     }
 
     @media #{$tablet_land__1024} {
-      font-size: 22px;
+      font-size: 21px;
       padding: 0;
     }
 
+    @media #{$desktop__1280} {
+      font-size: 22px;
+    }
 
     @media #{$HD__screens__1920} {
       position: absolute;
@@ -447,6 +481,10 @@
 
         @media #{$tablet_land__1024} {
           padding: 25px 0 35px
+        }
+
+        @media #{$desktop__1280} {
+          padding: 27px 0 40px
         }
 
         @media #{$HD__screens__1920} {
