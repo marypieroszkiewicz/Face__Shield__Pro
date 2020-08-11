@@ -10,8 +10,16 @@
   //display: none;
 
   @media #{$mobile_land__640} {
-    //background-image: url("../images/parallax-640.jpg");
-    height: 46.615vw;
+    //height: 46.615vw;
+  }
+
+  @media #{$tablet_land__1024} {
+    background-image: url("../images/parallax-1024.jpg");
+    height: 50vw;
+  }
+
+  @media #{$desktop__1280} {
+    background-image: url("../images/parallax-1280.jpg");
   }
 
   @media #{$HD__screens__1920} {
@@ -36,6 +44,18 @@
     text-transform: uppercase;
     color: $white;
     text-shadow: 5px 5px 10px black;
+
+    @media #{$mobile_land__640} {
+      font-size: rem(30px);
+    }
+
+    @media #{$tablet_land__1024} {
+      font-size: rem(35px);
+    }
+
+    @media #{$desktop__1280} {
+      font-size: rem(40px);
+    }
 
     @media #{$HD__screens__1920} {
       font-size: 50px;
