@@ -45,9 +45,6 @@
   }
 
   @media #{$full__screens__1600} {
-  }
-
-  @media #{$HD__screens__1920} {
     padding-bottom: calc(1186 / 1920 * 100%);
   }
 
@@ -121,12 +118,14 @@
     margin-top: -6px;
   }
 
-  @media #{$desktop__1280} {
+  @media #{$large__screens__1440} {
+    padding: 35px 0;
   }
 
-  @media #{$large__screens__1440} {
-    width: 30%;
-    padding: 35px 0;
+  @media #{$full__screens__1600} {
+    width: 22%;
+    padding: rem(45px 0);
+    margin-top: -8px;
   }
 
   @media #{$HD__screens__1920} {
@@ -281,10 +280,7 @@
     }
 
     @media #{$large__screens__1440} {
-      font-size: 22px;
-    }
-
-    @media #{$full__screens__1600} {
+      font-size: rem(20px);
     }
 
     @media #{$HD__screens__1920} {
@@ -339,9 +335,14 @@
       left: 170px;
     }
 
+    @media #{$full__screens__1600} {
+      width: 13%;
+      top: 243px;
+      left: 222px;
+    }
+
     @media #{$HD__screens__1920} {
       width: 10%;
-      //top: 195px;
       top: 342px;
       left: 312px;
     }
@@ -382,9 +383,14 @@
       right: 105px;
     }
 
+    @media #{$full__screens__1600} {
+      width: 13%;
+      top: 554px;
+      right: 155px;
+    }
+
     @media #{$HD__screens__1920} {
       width: 10%;
-      //top: 550px;
       top: 720px;
       right: 240px;
     }
@@ -478,6 +484,10 @@
       font-size: 23px;
     }
 
+    @media #{$full__screens__1600} {
+      font-size: 24px;
+    }
+
     @media #{$HD__screens__1920} {
       position: absolute;
       bottom: 0;
@@ -491,6 +501,26 @@
         text-transform: uppercase;
         display: inline-block;
         padding-bottom: 10px;
+
+        @media #{$tablet__768} {
+          padding-bottom: 13px;
+        }
+
+        @media #{$tablet_land__1024} {
+          padding-bottom: 15px;
+        }
+
+        @media #{$desktop__1280} {
+          padding-bottom: 18px;
+        }
+
+        @media #{$large__screens__1440} {
+          padding-bottom: 22px;
+        }
+
+        @media #{$full__screens__1600} {
+          padding-bottom: 32px;
+        }
 
         @media #{$HD__screens__1920} {
           padding-bottom: 42px;
@@ -516,6 +546,10 @@
 
         @media #{$large__screens__1440} {
           padding: 29px 0 45px
+        }
+
+        @media #{$full__screens__1600} {
+          padding: 34px 0 51px
         }
 
         @media #{$HD__screens__1920} {
