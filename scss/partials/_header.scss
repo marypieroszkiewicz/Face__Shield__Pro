@@ -32,6 +32,10 @@
     padding-bottom: calc(1700 / 1920 * 100%);
   }
 
+  @media #{$tablet_land__1024} {
+    padding-bottom: calc(1500 / 1920 * 100%);
+  }
+
   @media #{$HD__screens__1920} {
     padding-bottom: calc(1186 / 1920 * 100%);
   }
@@ -75,7 +79,7 @@
     }
 
     @media #{$tablet_land__1024} {
-      padding: rem(0 0 0 60px);
+      padding: rem(0 20px 0 40px);
     }
 
     @media #{$desktop__1280} {
@@ -257,7 +261,7 @@
     position: relative;
 
     @media #{$tablet_land__1024} {
-      font-size: rem(20px);
+      font-size: rem(16px);
     }
 
     @media #{$desktop__1280} {
@@ -294,13 +298,19 @@
 
     @media #{$mobile_land__640} {
       top: 105px;
-      left: 30px;
+      left: 40px;
     }
 
     @media #{$tablet__768} {
       width: 30%;
       top: 90px;
       left: 60px;
+    }
+
+    @media #{$tablet_land__1024} {
+      width: 25%;
+      top: 115px;
+      left: 108px;
     }
 
     @media #{$HD__screens__1920} {
@@ -320,11 +330,18 @@
 
     @media #{$mobile_land__640} {
       top: 170px;
-      right: 27px;
+      right: 40px;
     }
 
     @media #{$tablet__768} {
       width: 30%;
+      right: 60px;
+    }
+
+    @media #{$tablet_land__1024} {
+      width: 25%;
+      top: 282px;
+      right: 50px;
     }
 
     @media #{$HD__screens__1920} {
@@ -347,7 +364,7 @@
       }
 
       @media #{$tablet__768} {
-        padding: 20px 20px 20px 0;
+        padding: 18px 18px 18px 0;
       }
 
       @media #{$HD__screens__1920} {
@@ -361,6 +378,10 @@
 
       @media #{$mobile_land__640} {
         padding: 15px 0 15px 15px;
+      }
+
+      @media #{$tablet__768} {
+        padding: 18px 0 18px 18px;
       }
 
       @media #{$HD__screens__1920} {
@@ -378,10 +399,23 @@
     color: $tundora;
     font-family: $font-second;
     font-size: 14px;
+    padding: 0 20px;
 
     @media #{$mobile_land__640} {
       font-size: 18px;
+      padding: 0 40px;
     }
+
+    @media #{$tablet__768} {
+      font-size: 20px;
+      padding: 0 60px;
+    }
+
+    @media #{$tablet_land__1024} {
+      font-size: 22px;
+      padding: 0;
+    }
+
 
     @media #{$HD__screens__1920} {
       position: absolute;
@@ -395,6 +429,7 @@
       &--uppercase {
         text-transform: uppercase;
         display: inline-block;
+        padding-bottom: 10px;
 
         @media #{$HD__screens__1920} {
           padding-bottom: 42px;
@@ -408,6 +443,10 @@
 
         @media #{$mobile_land__640} {
           padding: 20px 0 30px;
+        }
+
+        @media #{$tablet_land__1024} {
+          padding: 25px 0 35px
         }
 
         @media #{$HD__screens__1920} {
