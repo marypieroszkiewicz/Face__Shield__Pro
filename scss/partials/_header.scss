@@ -346,6 +346,11 @@
       top: 342px;
       left: 312px;
     }
+
+    @media #{$max__screen__2560} {
+      top: 455px;
+      left: 428px;
+    }
   }
 
   &__light {
@@ -393,6 +398,11 @@
       width: 10%;
       top: 720px;
       right: 240px;
+    }
+
+    @media #{$max__screen__2560} {
+      top: 950px;
+      right: 334px;
     }
   }
 
