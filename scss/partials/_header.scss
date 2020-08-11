@@ -41,6 +41,7 @@
   }
 
   @media #{$large__screens__1440} {
+    padding-bottom: calc(1200 / 1920 * 100%);
   }
 
   @media #{$full__screens__1600} {
@@ -93,6 +94,7 @@
     }
 
     @media #{$desktop__1280} {
+      padding: rem(0 30px 0 50px);
       justify-content: space-between;
     }
 
@@ -101,7 +103,6 @@
     }
 
     @media (min-width: 1921px) {
-      //padding: rem(0 0 0 140px);
     }
   }
 }
@@ -117,15 +118,15 @@
 
   @media #{$tablet_land__1024} {
     width: 25%;
-    margin-top: -5px;
+    margin-top: -6px;
   }
 
   @media #{$desktop__1280} {
-    width: 22%;
   }
 
   @media #{$large__screens__1440} {
-    width: 25%;
+    width: 30%;
+    padding: 35px 0;
   }
 
   @media #{$HD__screens__1920} {
@@ -276,9 +277,11 @@
     }
 
     @media #{$desktop__1280} {
+      font-size: rem(18px);
     }
 
     @media #{$large__screens__1440} {
+      font-size: 22px;
     }
 
     @media #{$full__screens__1600} {
@@ -330,6 +333,12 @@
       left: 108px;
     }
 
+    @media #{$large__screens__1440} {
+      width: 15%;
+      top: 225px;
+      left: 170px;
+    }
+
     @media #{$HD__screens__1920} {
       width: 10%;
       //top: 195px;
@@ -367,6 +376,12 @@
       right: 50px;
     }
 
+    @media #{$large__screens__1440} {
+      width: 15%;
+      top: 510px;
+      right: 105px;
+    }
+
     @media #{$HD__screens__1920} {
       width: 10%;
       //top: 550px;
@@ -394,6 +409,10 @@
         padding: 20px 20px 20px 0;
       }
 
+      @media #{$large__screens__1440} {
+        padding: 24px 24px 24px 0;
+      }
+
       @media #{$HD__screens__1920} {
         padding: 28px 28px 28px 0;
       }
@@ -413,6 +432,10 @@
 
       @media #{$desktop__1280} {
         padding: 20px 0 20px 20px;
+      }
+
+      @media #{$large__screens__1440} {
+        padding: 24px 0 24px 24px;
       }
 
       @media #{$HD__screens__1920} {
@@ -451,6 +474,10 @@
       font-size: 22px;
     }
 
+    @media #{$large__screens__1440} {
+      font-size: 23px;
+    }
+
     @media #{$HD__screens__1920} {
       position: absolute;
       bottom: 0;
@@ -485,6 +512,10 @@
 
         @media #{$desktop__1280} {
           padding: 27px 0 40px
+        }
+
+        @media #{$large__screens__1440} {
+          padding: 29px 0 45px
         }
 
         @media #{$HD__screens__1920} {
