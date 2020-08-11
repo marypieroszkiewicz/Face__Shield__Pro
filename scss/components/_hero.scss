@@ -9,10 +9,6 @@
 
   //display: none;
 
-  @media #{$mobile_land__640} {
-    //height: 46.615vw;
-  }
-
   @media #{$tablet_land__1024} {
     background-image: url("../images/parallax-1024.jpg");
     height: 50vw;
@@ -20,6 +16,14 @@
 
   @media #{$desktop__1280} {
     background-image: url("../images/parallax-1280.jpg");
+  }
+
+  @media #{$large__screens__1440} {
+    background-image: url("../images/parallax-1440.jpg");
+  }
+
+  @media #{$full__screens__1600} {
+    background-image: url("../images/parallax-1600.jpg");
   }
 
   @media #{$HD__screens__1920} {

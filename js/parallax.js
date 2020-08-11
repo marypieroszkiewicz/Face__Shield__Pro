@@ -1,4 +1,4 @@
-// TODO get image and container dimensions after loaded DOM
+//TODO get image and container dimensions after loaded DOM
 
 const getElementBackgroundHeight = (entry) => {
   let backgroundImage = new Image();
