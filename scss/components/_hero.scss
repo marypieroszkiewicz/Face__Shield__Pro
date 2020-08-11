@@ -1,11 +1,16 @@
 /* ----- HERO ----- */
 
 .parallax {
-  background-image: url("../images/parallax.jpg");
+  background-image: url("../images/parallax-mobile.jpg");
   background-repeat: no-repeat;
   background-position: 0 0;
   width: 100%;
-  height: 46.615vw;
+  height: 60vw;
+
+  @media #{$mobile_land__640} {
+    background-image: url("../images/parallax.jpg");
+    height: 46.615vw;
+  }
 
   //display: none;
 
