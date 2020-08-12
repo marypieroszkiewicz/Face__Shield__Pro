@@ -26,20 +26,21 @@
 
 
   @media #{$mobile_land__640} {
-    padding-bottom: calc(2000 / 1920 * 100%);
-  }
-
-  @media #{$tablet__768} {
     padding-bottom: calc(1700 / 1920 * 100%);
   }
 
+  @media #{$tablet__768} {
+    padding-bottom: calc(1600 / 1920 * 100%);
+  }
+
   @media #{$tablet_land__1024} {
-    padding-bottom: calc(1500 / 1920 * 100%);
+    padding-bottom: calc(1350 / 1920 * 100%);
+    background-position: 0 0;
   }
 
   @media #{$desktop__1280} {
     background-image: url("../images/header-bg.jpg");
-    padding-bottom: calc(1300 / 1920 * 100%);
+    padding-bottom: calc(1250 / 1920 * 100%);
   }
 
   @media #{$large__screens__1440} {
@@ -48,10 +49,6 @@
 
   @media #{$full__screens__1600} {
     padding-bottom: calc(1186 / 1920 * 100%);
-  }
-
-  @media #{$HD__screens__1920} {
-    background-position: 0 0;
   }
 
   @media #{$max__screen__2560} {
@@ -297,7 +294,6 @@
       }
     }
 
-
     &.active {
       color: $viking;
     }
@@ -313,7 +309,7 @@
     left: 10px;
 
     @media #{$mobile_land__640} {
-      top: 105px;
+      top: 85px;
       left: 40px;
     }
 
@@ -324,14 +320,14 @@
     }
 
     @media #{$tablet_land__1024} {
-      width: 23%;
-      top: 115px;
-      left: 90px;
+      width: 20%;
+      top: 180px;
+      left: 60px;
     }
 
     @media #{$desktop__1280} {
       width: 18%;
-      top: 230px;
+      top: 226px;
       left: 108px;
     }
 
@@ -366,25 +362,26 @@
     right: 10px;
 
     @media #{$mobile_land__640} {
-      top: 170px;
+      top: 132px;
       right: 40px;
     }
 
     @media #{$tablet__768} {
       width: 30%;
+      top: 155px;
       right: 60px;
     }
 
     @media #{$tablet_land__1024} {
-      width: 23%;
-      top: 297px;
-      right: 40px;
+      width: 20%;
+      top: 379px;
+      right: 30px;
     }
 
     @media #{$desktop__1280} {
       width: 18%;
       top: 477px;
-      right: 50px;
+      right: 55px;
     }
 
     @media #{$large__screens__1440} {
@@ -517,20 +514,23 @@
         display: inline-block;
         padding-bottom: 10px;
 
+        @media #{$mobile_land__640} {
+          padding-bottom: 16px;
+        }
+
         @media #{$tablet__768} {
-          padding-bottom: 13px;
+          padding-bottom: 20px;
         }
 
         @media #{$tablet_land__1024} {
-          padding-bottom: 15px;
+          padding-bottom: 22px;
         }
 
         @media #{$desktop__1280} {
-          padding-bottom: 18px;
+          padding-bottom: 24px;
         }
 
         @media #{$large__screens__1440} {
-          padding-bottom: 22px;
         }
 
         @media #{$full__screens__1600} {
