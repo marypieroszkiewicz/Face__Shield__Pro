@@ -18,10 +18,26 @@
   z-index: 1;
   color: white;
   text-shadow: 5px 5px 10px black;
-  margin: -25%;
-  align-self: center;
+  margin-top: 17%;
+  align-self: flex-start;
   text-transform: uppercase;
-  font-size: 50px;
+  font-size: rem(20px);
+
+  @media #{$mobile_land__640} {
+    font-size: rem(30px);
+  }
+
+  @media #{$tablet_land__1024} {
+    font-size: rem(35px);
+  }
+
+  @media #{$desktop__1280} {
+    font-size: rem(40px);
+  }
+
+  @media #{$HD__screens__1920} {
+    font-size: rem(50px);
+  }
 }
 
 .parallax__bg {
