@@ -42,5 +42,4 @@ document.addEventListener('DOMContentLoaded', () => {
     parallaxBg.style.transform = 'translateY(' + (scrolled * 0.3 * -1) + 'px)';
   });
 
-
 })

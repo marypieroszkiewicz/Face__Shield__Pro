@@ -50,6 +50,10 @@
     padding-bottom: calc(1186 / 1920 * 100%);
   }
 
+  @media #{$HD__screens__1920} {
+    background-position: 0 0;
+  }
+
   @media #{$max__screen__2560} {
     padding-bottom: calc(1281 / 1920 * 100%);
   }
