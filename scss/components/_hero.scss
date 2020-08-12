@@ -1,5 +1,35 @@
 /* ----- HERO ----- */
 
+
+.parallax-ctn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 895px;
+  position: relative;
+  overflow: hidden;
+}
+
+.parallax__title {
+  z-index: 1;
+  color: white;
+  text-shadow: 5px 5px 10px black;
+  margin: -25%;
+  align-self: center;
+  text-transform: uppercase;
+  font-size: 50px;
+}
+
+.parallax__bg {
+  position: absolute;
+  width: 100%;
+  height: 100vw;
+  background-image: url("../images/parallax.jpeg");
+  background-size: cover;
+  top: 0;
+  background-position: center 0;
+}
+
 .parallax {
   background-image: url("../images/parallax-320.jpg");
   background-repeat: no-repeat;
@@ -37,34 +67,34 @@
     height: 42.188vw;
   }
 
-  &__title {
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    font-size: rem(20px);
-    text-transform: uppercase;
-    color: $white;
-    text-shadow: 5px 5px 10px black;
-
-    @media #{$mobile_land__640} {
-      font-size: rem(30px);
-    }
-
-    @media #{$tablet_land__1024} {
-      font-size: rem(35px);
-    }
-
-    @media #{$desktop__1280} {
-      font-size: rem(40px);
-    }
-
-    @media #{$HD__screens__1920} {
-      font-size: 50px;
-    }
-  }
+  //&__title {
+  //  position: relative;
+  //  top: 50%;
+  //  transform: translateY(-50%);
+  //  display: flex;
+  //  justify-content: center;
+  //  width: 100%;
+  //  font-size: rem(20px);
+  //  text-transform: uppercase;
+  //  color: $white;
+  //  text-shadow: 5px 5px 10px black;
+  //
+  //  @media #{$mobile_land__640} {
+  //    font-size: rem(30px);
+  //  }
+  //
+  //  @media #{$tablet_land__1024} {
+  //    font-size: rem(35px);
+  //  }
+  //
+  //  @media #{$desktop__1280} {
+  //    font-size: rem(40px);
+  //  }
+  //
+  //  @media #{$HD__screens__1920} {
+  //    font-size: 50px;
+  //  }
+  //}
 }
 
 

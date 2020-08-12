@@ -29,4 +29,18 @@ document.addEventListener('DOMContentLoaded', () => {
     elem.addEventListener('click', makeActive);
   });
 
+  /* ---------------------------------------------------- */
+  /* ----- PARALLAX ----- */
+  /* ---------------------------------------------------- */
+
+  const parallaxTitle = document.querySelector('.parallax__title');
+  const parallaxBg = document.querySelector('.parallax__bg');
+
+  window.addEventListener('scroll', function() {
+    let scrolled = window.pageYOffset;
+    parallaxTitle.style.transform = 'translateY(' + (scrolled * 0.08) + 'px)';
+    parallaxBg.style.transform = 'translateY(' + (scrolled * 0.3 * -1) + 'px)';
+  });
+
+
 })
