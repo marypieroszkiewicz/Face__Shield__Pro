@@ -146,13 +146,48 @@
 
     &-title {
       color: $white;
-      font-size: 50px;
+      font-size: rem(20px);
       text-align: center;
       text-transform: uppercase;
       position: absolute;
       left: 50%;
       transform: translateX(-50%);
-      bottom: 147px;
+      bottom: 12px;
+      width: 100%;
+
+      @media #{$mobile_land__640} {
+        font-size: rem(30px);
+        bottom: 34px;
+      }
+
+      @media #{$tablet__768} {
+        bottom: 45px;
+      }
+
+      @media #{$tablet_land__1024} {
+        font-size: rem(35px);
+        bottom: 60px;
+      }
+
+      @media #{$desktop__1280} {
+        bottom: 80px;
+      }
+
+      @media #{$large__screens__1440} {
+        font-size: rem(40px);
+        bottom: 90px;
+      }
+      @media #{$full__screens__1600} {
+        bottom: 106px;
+      }
+
+      @media #{$HD__screens__1920} {
+        font-size: 50px;
+        bottom: 147px;
+      }
+
+      @media #{$max__screen__2560} {
+      }
     }
   }
 
