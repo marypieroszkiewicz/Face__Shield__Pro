@@ -305,8 +305,9 @@
     flex-direction: column;
     width: 100%;
 
-    @media #{$HD__screens__1920} {
+    @media #{$tablet__768} {
       flex-direction: row;
+      align-items: center;
     }
 
     @media #{$max__screen__2560} {
@@ -319,6 +320,17 @@
     &-graphics {
       width: calc(100% - 40px);
       margin: 20px auto;
+
+      @media #{$mobile_land__640} {
+        width: calc(100% - 80px);
+        margin: 40px auto;
+      }
+
+      @media #{$tablet__768} {
+        // width: calc(100% - 120px);
+        width: 50%;
+        margin: 0;
+      }
 
       @media #{$HD__screens__1920} {
         margin: 0;
@@ -340,7 +352,20 @@
       display: flex;
       flex-direction: column;
       width: 100%;
-      padding: 0 40px;
+      padding: 0 40px 20px;
+
+      @media #{$mobile_land__640} {
+        padding: 0 60px 20px;
+      }
+
+      @media #{$tablet__768} {
+        width: 50%;
+        padding: 20px 60px 20px 30px;
+      }
+
+      @media #{$tablet_land__1024} {
+        padding: 40px;
+      }
 
       @media #{$HD__screens__1920} {
         width: 53.75%;
@@ -353,10 +378,20 @@
     }
 
     &-text {
-      font-size: 12px;
+      font-size: 16px;
       color: $scorpion;
-      // white-space: pre-line;
-      padding-bottom: 10px;
+
+      @media #{$mobile_land__640} {
+        font-size: 18px;
+      }
+
+      @media #{$tablet__768} {
+        font-size: 20px;
+      }
+
+      @media #{$tablet_land__1024} {
+        font-size: 22px;
+      }
 
       @media #{$HD__screens__1920} {
         white-space: pre-line;
@@ -367,35 +402,108 @@
 
     &-list {
       display: block;
-      padding-left: 35px;
+      padding-left: 15px;
       border-left: 1px solid $shakespeare;
-      margin-left: 25px;
+      margin-top: 35px;
+      margin-left: 20px;
       position: relative;
+
+      @media #{$mobile_land__640} {
+        margin-top: 45px;
+      }
+
+      @media #{$tablet_land__1024} {
+        margin-top: 55px;
+        padding-left: 20px;
+        margin-left: 25px;
+      }
+
+      @media #{$HD__screens__1920} {
+        padding-left: 35px;
+        margin-left: 25px;
+      }
 
       &::before {
         content: 'Zalety';
         display: block;
         position: absolute;
-        left: -30px;
-        top: -50px;
+        left: -20px;
+        top: -25px;
         color: $shakespeare;
-        font-size: 30px;
+        font-size: 16px;
+
+        @media #{$mobile_land__640} {
+          font-size: 18px;
+          top: -30px;
+        }
+
+        @media #{$tablet__768} {
+          font-size: 20px;
+        }
+
+        @media #{$tablet_land__1024} {
+          font-size: 22px;
+          top: -35px;
+        }
+
+        @media #{$HD__screens__1920} {
+          font-size: 30px;
+          top: -50px;
+          left: -30px;
+        }
       }
 
       &::after {
         content: '';
         position: absolute;
         bottom: 0;
-        left: -223px;
-        width: 223px;
+        left: 0;
+        width: 220px;
         height: 1px;
         background-color: $shakespeare;
+
+        @media #{$tablet__768} {
+          left: -223px;
+          width: 223px;
+        }
+
+        @media #{$tablet_land__1024} {
+          left: -110px;
+          width: 110px;
+        }
+
+        @media #{$HD__screens__1920} {
+        }
       }
     }
 
     &-item {
-      font-size: 20px;
+      font-size: 14px;
       color: $dove-gray;
+
+      @media #{$mobile_land__640} {
+        font-size: 16px;
+      }
+
+      @media #{$tablet__768} {
+        font-size: 18px;
+      }
+
+      @media #{$tablet_land__1024} {
+        font-size: 20px;
+      }
+
+      &:last-child {
+        padding-bottom: 5px;
+
+        @media #{$tablet__768} {
+          padding-bottom: 0;
+        }
+      }
+
+      @media #{$HD__screens__1920} {
+        font-size: 20px;
+      }
     }
   }
 
