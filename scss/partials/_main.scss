@@ -405,10 +405,14 @@
         font-size: 26px;
       }
 
+      @media #{$full__screens__1600} {
+        font-size: 28px;
+      }
+
       @media #{$HD__screens__1920} {
         white-space: pre-line;
         font-size: 30px;
-        padding-bottom: 100px;
+        // padding-bottom: 100px;
       }
     }
 
@@ -482,6 +486,9 @@
         @media #{$large__screens__1440} {
           font-size: 26px;
         }
+        @media #{$full__screens__1600} {
+          font-size: 28px;
+        }
 
         @media #{$HD__screens__1920} {
           font-size: 30px;
@@ -508,9 +515,10 @@
           left: -140px;
           width: 140px;
         }
-        
 
         @media #{$HD__screens__1920} {
+          left: -223px;
+          width: 223px;
         }
       }
     }
