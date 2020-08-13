@@ -635,9 +635,9 @@
 .rwd-break {
   display: block;
 
-  // @media #{$tablet__768} {
-  //   display: none;
-  // }
+  @media #{$tablet_land__1024} {
+    display: none;
+  }
 
   @media #{$HD__screens__1920} {
     display: none;
