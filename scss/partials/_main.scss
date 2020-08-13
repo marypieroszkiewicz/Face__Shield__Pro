@@ -228,6 +228,13 @@
         font-size: 16px;
       }
 
+      @media #{$tablet__768} {
+        right: 80px;
+        bottom: 55px;
+        padding: 18px 0 18px 18px;
+        font-size: 20px;
+      }
+
       @media #{$HD__screens__1920} {
         right: 160px;
         bottom: 109px;
@@ -628,14 +635,10 @@
 .rwd-break {
   display: block;
 
-  //@media #{$mobile_land__640} {
-  //  display: none;
-  //}
+  // @media #{$tablet__768} {
+  //   display: none;
+  // }
 
-  @media #{$tablet__768} {
-    display: none;
-  }
-  
   @media #{$HD__screens__1920} {
     display: none;
   }
