@@ -235,6 +235,18 @@
         font-size: 20px;
       }
 
+      @media #{$tablet_land__1024} {
+        right: 40px;
+        font-size: 22px;
+      }
+
+      @media #{$desktop__1280} {
+        right: 50px;
+        bottom: 80px;
+        font-size: 24px;
+        padding: 20px 0 20px 20px;
+      }
+
       @media #{$HD__screens__1920} {
         right: 160px;
         bottom: 109px;
