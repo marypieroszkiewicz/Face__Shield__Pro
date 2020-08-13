@@ -136,8 +136,6 @@
     height: 0;
     padding-bottom: calc(777 / 1920 * 100%);
 
-    //display: none;
-
     @media #{$max__screen__2560} {
       width: 100vw;
       left: 50%;
@@ -203,7 +201,10 @@
     height: 0;
     padding-bottom: calc(850 / 1920 * 100%);
 
-    display: none;
+    //display: none;
+
+    @media #{$HD__screens__1920} {
+    }
 
     @media #{$max__screen__2560} {
       width: 100vw;
@@ -213,19 +214,42 @@
 
     &-content {
       position: absolute;
-      left: 76%;
-      transform: translateX(-76%);
-      bottom: 109px;
-      padding: 0 0 35px 62px;
+      right: 5px;
+      bottom: 15px;
+      padding: 10px 0 10px 10px;
       border-left: 1px solid $shakespeare;
       border-bottom: 1px solid $shakespeare;
-      font-size: 30px;
+      font-size: 12px;
+
+      @media #{$mobile_land__640} {
+        right: 60px;
+        bottom: 45px;
+        padding: 15px 0 15px 15px;
+        font-size: 16px;
+      }
+
+      @media #{$HD__screens__1920} {
+        right: 160px;
+        bottom: 109px;
+        padding: 0 0 35px 62px;
+        border-left: 1px solid $shakespeare;
+        border-bottom: 1px solid $shakespeare;
+        font-size: 30px;
+      }
     }
 
     &-title {
       color: $shakespeare;
       text-transform: uppercase;
-      padding-bottom: 56px;
+      padding-bottom: 10px;
+
+      @media #{$mobile_land__640} {
+        padding-bottom: 10px;
+      }
+
+      @media #{$HD__screens__1920} {
+        padding-bottom: 56px;
+      }
     }
   }
 
@@ -602,6 +626,19 @@
 }
 
 .rwd-break {
+  display: block;
+
+  //@media #{$mobile_land__640} {
+  //  display: none;
+  //}
+
+  @media #{$tablet__768} {
+    display: none;
+  }
+  
+  @media #{$HD__screens__1920} {
+    display: none;
+  }
 
   &--2 {
     display: none;
