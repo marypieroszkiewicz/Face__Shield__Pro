@@ -142,6 +142,7 @@
       width: 100vw;
       left: 50%;
       transform: translateX(-50%);
+      padding-bottom: calc(1035 / 1920 * 100%);
     }
 
     &-title {
@@ -187,6 +188,7 @@
       }
 
       @media #{$max__screen__2560} {
+        bottom: 185px;
       }
     }
   }
