@@ -367,6 +367,10 @@
         padding: 40px 40px 20px 40px;
       }
 
+      @media #{$desktop__1280} {
+        padding: 0 50px;
+      }
+
       @media #{$HD__screens__1920} {
         width: 53.75%;
         padding: 110px 0 0 134px;
@@ -397,6 +401,10 @@
         font-size: 24px;
       }
 
+      @media #{$large__screens__1440} {
+        font-size: 26px;
+      }
+
       @media #{$HD__screens__1920} {
         white-space: pre-line;
         font-size: 30px;
@@ -420,6 +428,17 @@
         margin-top: 55px;
         padding-left: 20px;
         margin-left: 25px;
+      }
+
+      @media #{$desktop__1280} {
+        margin-top: 65px;
+        padding-left: 25px;
+        margin-left: 30px;
+      }
+
+      @media #{$large__screens__1440} {
+        margin-top: 70px;
+        padding-left: 30px;
       }
 
       @media #{$HD__screens__1920} {
@@ -452,6 +471,16 @@
 
         @media #{$desktop__1280} {
           font-size: 24px;
+          top: -40px;
+          left: -30px;
+        }
+
+        @media #{$large__screens__1440} {
+          top: -45px;
+        }
+
+        @media #{$large__screens__1440} {
+          font-size: 26px;
         }
 
         @media #{$HD__screens__1920} {
@@ -479,6 +508,7 @@
           left: -140px;
           width: 140px;
         }
+        
 
         @media #{$HD__screens__1920} {
         }
@@ -503,6 +533,10 @@
 
       @media #{$desktop__1280} {
         font-size: 22px;
+      }
+
+      @media #{$large__screens__1440} {
+        font-size: 24px;
       }
 
       &:last-child {
