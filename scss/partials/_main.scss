@@ -575,6 +575,7 @@
       width: 100vw;
       left: 50%;
       transform: translateX(-50%);
+      padding-bottom: calc(1335 / 1920 * 100%);
     }
 
     &-content {
@@ -615,13 +616,22 @@
       }
 
       @media #{$full__screens__1600} {
+        left: 179px;
+        top: 390px;
       }
 
       @media #{$HD__screens__1920} {
-        left: 12.083333333333333%;
+        top: 470px;
+        left: 270px;
         transform: translateX(-10%);
         padding-top: 30px;
         padding-right: 40px;
+      }
+
+      @media #{$max__screen__2560} {
+        top: auto;
+        bottom: 500px;
+        left: 440px;
       }
     }
 
