@@ -886,7 +886,6 @@
     &-text {
       color: $white;
       text-transform: uppercase;
-      //white-space: pre-line;
       font-size: 12px;
 
       @media #{$mobile_land__640} {
@@ -935,8 +934,36 @@
 
     &-title {
       margin: 0 auto;
-      padding: 85px 0;
-      width: 23.177083333333334%;
+      padding: 40px 0;
+      width: 50%;
+
+      @media #{$mobile_land__640} {
+        width: 35%;
+        padding: 50px 0;
+      }
+
+      @media #{$tablet_land__1024} {
+        width: 30%;
+        padding: 60px 0;
+      }
+
+      @media #{$desktop__1280} {
+        width: 25%;
+        padding: 75px 0;
+      }
+
+      @media #{$large__screens__1440} {
+
+      }
+
+      @media #{$full__screens__1600} {
+
+      }
+
+      @media #{$HD__screens__1920} {
+        padding: 85px 0;
+        width: 23.177083333333334%;
+      }
     }
 
     &-content {
