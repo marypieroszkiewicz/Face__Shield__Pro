@@ -20,6 +20,7 @@
       width: 100vw;
       left: 50%;
       transform: translateX(-50%);
+      padding-bottom: calc(1690 / 1920 * 100%);
     }
 
     &-content {
@@ -70,12 +71,9 @@
       }
 
       @media #{$HD__screens__1920} {
-        left: 15%;
-        transform: translateX(-15%);
+        left: 130px;
         bottom: 212px;
-        text-align: right;
-        padding-bottom: 24px;
-        padding-right: 50px;
+        padding: 50px 50px 24px 0;
         font-size: 30px;
       }
     }
