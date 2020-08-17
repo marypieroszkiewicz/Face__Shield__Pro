@@ -681,8 +681,6 @@
     height: 0;
     padding-bottom: calc(1080 / 1920 * 100%);
 
-    display: none;
-
     @media #{$max__screen__2560} {
       width: 100vw;
       left: 50%;
@@ -694,41 +692,231 @@
       border-top: 1px solid $white;
 
       &--1 {
-        top: 165px;
-        left: 257px;
-        padding: 25px 25px 42px 0;
+        top: 4px;
+        left: 30px;
+        padding: 10px 10px 0 0;
         border-right: 1px solid $white;
         text-align: right;
+
+        @media #{$mobile_land__640} {
+          top: 30px;
+          left: 40px;
+          padding: 15px 15px 15px 0;
+        }
+
+        @media #{$tablet__768} {
+          left: 60px;
+          padding: 18px 18px 18px 0;
+        }
+
+        @media #{$tablet_land__1024} {
+          top: 70px;
+          left: 45px;
+          white-space: pre-line;
+          padding: 0 18px 18px 0;
+        }
+
+        @media #{$desktop__1280} {
+          top: 110px;
+          left: 100px;
+          padding: 0 20px 20px 0;
+        }
+
+        @media #{$large__screens__1440} {
+          padding: 0 24px 24px 0;
+        }
+
+        @media #{$full__screens__1600} {
+          top: 149px;
+          left: 160px;
+        }
+
+        @media #{$HD__screens__1920} {
+          top: 165px;
+          left: 257px;
+          border-right: 1px solid $white;
+          text-align: right;
+        }
       }
 
       &--2 {
-        top: 160px;
-        left: 953px;
-        padding: 29px 0 42px 29px;
+        top: 5px;
+        right: 65px;
+        padding: 10px 0 0 10px;
         border-left: 1px solid $white;
+
+        @media #{$mobile_land__640} {
+          top: 40px;
+          right: 95px;
+          padding: 15px 0 15px 15px;
+        }
+
+        @media #{$tablet__768} {
+          top: 50px;
+          right: 102px;
+          padding: 18px 0 18px 18px;
+        }
+
+        @media #{$tablet_land__1024} {
+          top: 80px;
+          right: 202px;
+        }
+
+        @media #{$desktop__1280} {
+          top: 115px;
+          right: 302px;
+          padding: 20px 0 20px 20px;
+        }
+
+        @media #{$large__screens__1440} {
+          top: 125px;
+          right: 355px;
+          padding: 24px 0 24px 24px;
+        }
+
+        @media #{$full__screens__1600} {
+          top: 145px;
+          right: 405px;
+        }
+
+        @media #{$HD__screens__1920} {
+          top: 160px;
+          left: 960px;
+          padding: 29px 0 42px 29px;
+        }
       }
 
       &--3 {
-        top: 255px;
-        right: 178px;
-        padding: 29px 0 42px 29px;
+        top: 55px;
+        right: 10px;
+        padding: 10px 0 0 10px;
         border-left: 1px solid $white;
+
+        @media #{$mobile_land__640} {
+          top: 80px;
+          right: 25px;
+          padding: 15px 0 0 15px;
+        }
+
+        @media #{$tablet__768} {
+          top: 97px;
+          right: 24px;
+          padding: 18px 0 0 18px;
+        }
+
+        @media #{$tablet_land__1024} {
+          top: 135px;
+          right: 90px;
+        }
+
+        @media #{$desktop__1280} {
+          top: 180px;
+          right: 45px;
+          padding: 20px 0 20px 20px;
+        }
+
+        @media #{$large__screens__1440} {
+          top: 205px;
+          right: 60px;
+          padding: 24px 0 24px 24px;
+        }
+
+        @media #{$full__screens__1600} {
+          top: 235px;
+          right: 75px;
+        }
+
+        @media #{$HD__screens__1920} {
+          top: 255px;
+          right: 178px;
+          padding: 29px 0 42px 29px;
+        }
       }
 
       &--4 {
-        top: 482px;
-        left: 363px;
+        bottom: 3px;
+        left: 38px;
         text-align: right;
-        padding: 25px 25px 42px 0;
+        padding: 0 10px 10px 0;
+        border-top: 0;
+        border-bottom: 1px solid $white;
         border-right: 1px solid $white;
+
+        @media #{$mobile_land__640} {
+          bottom: 40px;
+          left: 120px;
+          padding: 15px 15px 15px 0;
+        }
+
+        @media #{$tablet__768} {
+          bottom: 70px;
+          left: 88px;
+          padding: 18px 18px 18px 0;
+        }
+
+        @media #{$tablet_land__1024} {
+          bottom: 115px;
+          left: 150px;
+        }
+
+        @media #{$desktop__1280} {
+          bottom: 160px;
+          left: 210px;
+          padding: 20px 20px 20px 0;
+        }
+
+        @media #{$large__screens__1440} {
+          bottom: 180px;
+          left: 240px;
+          padding: 24px 24px 24px 0;
+        }
+
+        @media #{$full__screens__1600} {
+          bottom: 208px;
+          left: 275px;
+        }
+
+        @media #{$HD__screens__1920} {
+          bottom: 270px;
+          left: 365px;
+        }
       }
     }
 
     &-text {
       color: $white;
       text-transform: uppercase;
-      white-space: pre-line;
-      font-size: 30px;
+      //white-space: pre-line;
+      font-size: 12px;
+
+      @media #{$mobile_land__640} {
+        font-size: 16px;
+      }
+
+      @media #{$tablet__768} {
+        font-size: 20px;
+      }
+
+      @media #{$tablet_land__1024} {
+        font-size: 22px;
+      }
+
+      @media #{$desktop__1280} {
+        font-size: 24px;
+      }
+
+      @media #{$large__screens__1440} {
+        font-size: 26px;
+      }
+
+      @media #{$full__screens__1600} {
+        font-size: 28px;
+      }
+
+      @media #{$HD__screens__1920} {
+        white-space: pre-line;
+        font-size: 30px;
+      }
     }
   }
 
@@ -737,8 +925,6 @@
     width: 100%;
     display: flex;
     flex-direction: column;
-
-    display: none;
 
     @media #{$max__screen__2560} {
       position: relative;
@@ -755,16 +941,48 @@
 
     &-content {
       display: flex;
-      padding: 0 133px 96px;
+      flex-wrap: wrap;
+
+      @media #{$tablet_land__1024} {
+        flex-wrap: nowrap;
+        margin: 0 50px;
+      }
+
+      @media #{$HD__screens__1920} {
+        margin: 0;
+        padding: 0 133px 96px;
+      }
 
       &__box {
         border: 3px solid $white;
         border-radius: 10px;
-        width: calc(100% / 3);
-        margin-right: 156px;
+        width: calc(100% - 40px);
+        margin: 0 auto 20px;
+
+        @media #{$mobile_land__640} {
+          width: calc(100% - 80px);
+          margin: 0 auto 40px;
+        }
+
+        @media #{$tablet__768} {
+          width: calc(100% - 120px);
+          margin: 0 auto 60px;
+        }
+
+        @media #{$tablet_land__1024} {
+          width: calc(100% / 3);
+          margin: 0 30px 0 0;
+        }
+
+        @media #{$HD__screens__1920} {
+          width: calc(100% / 3);
+          margin: 0 156px 0 0;
+        }
 
         &--3 {
-          margin-right: 0;
+          @media #{$tablet_land__1024} {
+            margin-right: 0;
+          }
         }
       }
 
@@ -772,12 +990,79 @@
         padding: 35px 0;
 
         &--1 {
-          padding-top: 67px;
+
+          @media #{$tablet_land__1024} {
+            padding-top: 62px;
+          }
+
+          @media #{$desktop__1280} {
+            padding-top: 68px;
+          }
+
+          @media #{$HD__screens__1920} {
+            padding-top: 67px;
+          }
         }
       }
 
       &__img {
         margin: 0 auto;
+
+        &--1 {
+          width: 35%;
+
+          @media #{$mobile_land__640} {
+            width: 25%;
+          }
+
+          @media #{$tablet_land__1024} {
+            width: 35%;
+          }
+
+          @media #{$HD__screens__1920} {
+            width: auto;
+          }
+        }
+
+        &--2 {
+          width: 55%;
+
+          @media #{$mobile_land__640} {
+            width: 45%;
+          }
+
+          @media #{$tablet__768} {
+            width: 35%;
+          }
+
+          @media #{$tablet_land__1024} {
+            width: 57%;
+          }
+
+          @media #{$HD__screens__1920} {
+            width: auto;
+          }
+        }
+
+        &--3 {
+          width: 80%;
+
+          @media #{$mobile_land__640} {
+            width: 70%;
+          }
+
+          @media #{$tablet__768} {
+            width: 50%;
+          }
+
+          @media #{$tablet_land__1024} {
+            width: 75%;
+          }
+
+          @media #{$HD__screens__1920} {
+            width: auto;
+          }
+        }
       }
 
       &__description {
@@ -785,8 +1070,20 @@
         color: $white;
         white-space: pre-line;
         text-transform: uppercase;
-        font-size: 30px;
-        padding-top: 51px;
+        font-size: 20px;
+        padding-top: 30px;
+
+        @media #{$mobile_land__640} {
+          font-size: 25px;
+        }
+
+        @media #{$tablet__768} {
+          font-size: 30px;
+        }
+
+        @media #{$HD__screens__1920} {
+          padding-top: 51px;
+        }
       }
     }
   }
@@ -801,6 +1098,10 @@
     padding-bottom: calc(1280 / 1920 * 100%);
 
     display: none;
+
+    @media #{$HD__screens__1920} {
+      display: block;
+    }
 
     @media #{$max__screen__2560} {
       width: 100vw;
@@ -832,6 +1133,10 @@
     padding-bottom: calc(1300 / 1920 * 100%);
 
     display: none;
+
+    @media #{$HD__screens__1920} {
+      display: block;
+    }
 
     @media #{$max__screen__2560} {
       width: 100vw;
@@ -889,6 +1194,10 @@
 
     display: none;
 
+    @media #{$HD__screens__1920} {
+      display: block;
+    }
+
     @media #{$max__screen__2560} {
       position: relative;
       width: 100vw;
@@ -944,10 +1253,6 @@
 .rwd-break {
   display: block;
 
-  @media #{$tablet_land__1024} {
-    display: none;
-  }
-
   @media #{$HD__screens__1920} {
     display: none;
   }
@@ -957,6 +1262,24 @@
 
     @media #{$HD__screens__1920} {
       display: block;
+    }
+  }
+
+  &--4 {
+    @media #{$tablet_land__1024} {
+      display: none;
+    }
+  }
+
+  &--5, &--6, &--8 {
+    @media #{$mobile_land__640} {
+      display: none;
+    }
+  }
+
+  &--7 {
+    @media #{$desktop__1280} {
+      display: none;
     }
   }
 }
