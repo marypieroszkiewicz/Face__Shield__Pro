@@ -76,6 +76,11 @@
         padding: 50px 50px 24px 0;
         font-size: 30px;
       }
+
+      @media #{$max__screen__2560} {
+        left: 400px;
+        bottom: 300px;
+      }
     }
 
     &-title {
