@@ -955,14 +955,6 @@
         padding: 75px 0;
       }
 
-      @media #{$large__screens__1440} {
-
-      }
-
-      @media #{$full__screens__1600} {
-
-      }
-
       @media #{$HD__screens__1920} {
         padding: 85px 0;
         width: 23.177083333333334%;
@@ -975,7 +967,7 @@
 
       @media #{$tablet_land__1024} {
         flex-wrap: nowrap;
-        margin: 0 50px;
+        padding: 0 50px 50px;
       }
 
       @media #{$HD__screens__1920} {
@@ -1127,8 +1119,6 @@
     height: 0;
     padding-bottom: calc(1280 / 1920 * 100%);
 
-    display: none;
-
     @media #{$HD__screens__1920} {
       display: block;
     }
@@ -1141,14 +1131,76 @@
 
     &-content {
       position: absolute;
-      bottom: 384px;
-      right: 453px;
-      width: 21.770833333333334%;
+      bottom: 55px;
+      right: 20px;
+      width: 35%;
+
+      @media #{$mobile_land__640} {
+        bottom: 100px;
+        right: 40px;
+      }
+
+      @media #{$tablet__768} {
+        bottom: 130px;
+        right: 60px;
+      }
+
+      @media #{$tablet_land__1024} {
+        bottom: 165px;
+        right: 78px;
+      }
+
+      @media #{$desktop__1280} {
+        width: 25%;
+        bottom: 209px;
+        right: 230px;
+      }
+
+      @media #{$large__screens__1440} {
+        width: 27%;
+        bottom: 235px;
+        right: 240px;
+      }
+
+      @media #{$full__screens__1600} {
+        bottom: 265px;
+        right: 260px;
+      }
+
+      @media #{$HD__screens__1920} {
+        bottom: 384px;
+        right: 453px;
+        width: 21.770833333333334%;
+      }
 
       &__border {
-        padding: 39px 0 68px 48px;
+        padding: 10px 0 10px 10px;
         border-top: 1px solid $pacific-blue;
         border-left: 1px solid $pacific-blue;
+
+        @media #{$mobile_land__640} {
+          padding: 15px 0 15px 15px;
+        }
+
+        @media #{$tablet__768} {
+          padding: 18px 0 18px 18px;
+        }
+
+        @media #{$desktop__1280} {
+          padding: 20px 0 20px 20px;
+        }
+
+        @media #{$large__screens__1440} {
+          padding: 24px 0 24px 24px;
+        }
+
+        @media #{$full__screens__1600} {
+
+        }
+
+        @media #{$HD__screens__1920} {
+          padding: 39px 0 68px 48px;
+        }
       }
     }
   }
@@ -1162,7 +1214,7 @@
     height: 0;
     padding-bottom: calc(1300 / 1920 * 100%);
 
-    display: none;
+    //display: none;
 
     @media #{$HD__screens__1920} {
       display: block;
