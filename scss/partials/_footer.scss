@@ -10,6 +10,18 @@
     flex-direction: column;
     padding: 30px 20px;
 
+    @media #{$mobile_land__640} {
+      padding: 40px;
+    }
+
+    @media #{$tablet__768} {
+      padding: 40px 60px;
+    }
+
+    @media #{$tablet_land__1024} {
+      padding: 50px;
+    }
+
     @media #{$HD__screens__1920} {
       padding: 79px 97px 0;
     }
@@ -17,6 +29,30 @@
 
   &__logo {
     width: 60%;
+
+    @media #{$mobile_land__640} {
+      width: 50%;
+    }
+
+    @media #{$tablet__768} {
+      width: 45%;
+    }
+
+    @media #{$tablet_land__1024} {
+      width: 35%;
+    }
+
+    @media #{$desktop__1280} {
+      width: 30%;
+    }
+
+    @media #{$large__screens__1440} {
+      width: 27%;
+    }
+
+    @media #{$full__screens__1600} {
+      width: 25%;
+    }
 
     @media #{$HD__screens__1920} {
       width: 20.46875%;
@@ -28,6 +64,24 @@
     font-size: 16px;
     white-space: pre-line;
     color: $dove-gray;
+
+    @media #{$mobile_land__640} {
+      font-size: 18px;
+      padding-top: 10px;
+    }
+
+    @media #{$tablet__768} {
+      font-size: 20px;
+    }
+
+    @media #{$tablet_land__1024} {
+      padding-top: 20px;
+      font-size: 22px;
+    }
+
+    @media #{$large__screens__1440} {
+      padding-top: 25px;
+    }
 
     @media #{$HD__screens__1920} {
       font-size: 20px;
