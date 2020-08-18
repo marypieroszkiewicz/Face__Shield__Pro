@@ -1287,45 +1287,61 @@
 
     &-content {
       position: absolute;
-      bottom: 55px;
-      right: 20px;
       width: 35%;
+      // bottom: 55px;
+      // right: 20px;
+      bottom: 17.188vw;
+      right: 6.25%;
 
       @media #{$mobile_land__640} {
-        bottom: 100px;
-        right: 40px;
+        // bottom: 100px;
+        // right: 40px;
+        bottom: 15.625vw;
+        right: 6.25%;
       }
 
       @media #{$tablet__768} {
-        bottom: 130px;
-        right: 60px;
+        // bottom: 130px;
+        // right: 60px;
+        bottom: 16.927vw;
+        right: 7.8125%;
       }
 
       @media #{$tablet_land__1024} {
-        bottom: 165px;
-        right: 78px;
+        // bottom: 165px;
+        // right: 78px;
+        bottom: 16.113vw;
+        right: 7.6171875%;
       }
 
       @media #{$desktop__1280} {
         width: 25%;
-        bottom: 209px;
-        right: 230px;
+        // bottom: 209px;
+        // right: 230px;
+        bottom: 16.328vw;
+        right: 17.96875%;
       }
 
       @media #{$large__screens__1440} {
         width: 27%;
-        bottom: 235px;
-        right: 240px;
+        // bottom: 235px;
+        // right: 240px;
+        bottom: 16.319vw;
+        right: 16.666666666666666%;
       }
 
       @media #{$full__screens__1600} {
-        bottom: 265px;
-        right: 260px;
+        // bottom: 265px;
+        // right: 260px;
+        bottom: 16.563vw;
+        right: 16.25%;
       }
 
       @media #{$HD__screens__1920} {
-        bottom: 384px;
-        right: 453px;
+        // bottom: 384px;
+        // right: 453px;
+        bottom: 20vw;
+        right: 23.59375%;
         width: 21.770833333333334%;
       }
 
@@ -1377,15 +1393,19 @@
       position: absolute;
 
       &--1 {
-        top: 15px;
-        right: 20px;
+        // top: 15px;
+        // right: 20px;
+        top: 4.688vw;
+        right: 6.25%;
         padding: rem(10px 0 10px 10px);
         border-top: 1px solid $pacific-blue;
         border-left: 1px solid $pacific-blue;
 
         @media #{$mobile_land__640} {
-          top: 15px;
-          right: 40px;
+          // top: 15px;
+          // right: 40px;
+          top: 2.344vw;
+          right: 6.25%;
           padding: rem(15px 0 15px 15px);
         }
 
