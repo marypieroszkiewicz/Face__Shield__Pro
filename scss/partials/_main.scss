@@ -765,33 +765,42 @@
       border-top: 1px solid $white;
 
       &--1 {
-        top: 4px;
-        left: 30px;
+        // top: 4px;
+        // left: 30px;
+        top: 1.250vw;
+        left: 9.375%;
         padding: rem(10px 10px 0 0);
         border-right: 1px solid $white;
         text-align: right;
 
         @media #{$mobile_land__640} {
-          top: 30px;
-          left: 40px;
+          // top: 30px;
+          // left: 40px;
+          top: 4.688vw;
+          left: 6.25%;
           padding: rem(15px 15px 15px 0);
         }
 
         @media #{$tablet__768} {
-          left: 60px;
+          // left: 60px;
+          left: 7.8125%;
           padding: rem(18px 18px 18px 0);
         }
 
         @media #{$tablet_land__1024} {
           top: 70px;
           left: 45px;
+          top: 6.836vw;
+          left: 4.39453125%;
           white-space: pre-line;
           padding: rem(0 18px 18px 0);
         }
 
         @media #{$desktop__1280} {
-          top: 110px;
-          left: 100px;
+          // top: 110px;
+          // left: 100px;
+          top: 8.594vw;
+          left: 7.8125%;
           padding: rem(0 20px 20px 0);
         }
 
@@ -800,26 +809,33 @@
         }
 
         @media #{$full__screens__1600} {
-          top: 149px;
-          left: 160px;
+          // top: 149px;
+          // left: 160px;
+          top: 9.313vw;
+          left: .1%;
         }
 
         @media #{$HD__screens__1920} {
-          top: 165px;
-          left: 257px;
+          // top: 165px;
+          // left: 257px;
+          top: 8.594vw;
+          left: 13.385416666666666%;
           border-right: 1px solid $white;
           text-align: right;
         }
 
         @media #{$max__screen__2560} {
-          top: 260px;
-          left: 455px;
+          // top: 260px;
+          // left: 455px;
+          top: 9.811vw;
+          left: 17.7734375%;
         }
       }
 
       &--2 {
         top: 5px;
         right: 65px;
+        
         padding: rem(10px 0 0 10px);
         border-left: 1px solid $white;
 
