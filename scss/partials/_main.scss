@@ -793,6 +793,11 @@
           right: 535px;
           padding: 29px 0 42px 29px;
         }
+
+        @media #{$max__screen__2560} {
+          top: 240px;
+          right: 868px;
+        }
       }
 
       &--3 {
@@ -839,6 +844,11 @@
           top: 255px;
           right: 178px;
           padding: 29px 0 42px 29px;
+        }
+
+        @media #{$max__screen__2560} {
+          top: 400px;
+          right: 340px;
         }
       }
 
@@ -888,6 +898,11 @@
         @media #{$HD__screens__1920} {
           bottom: 270px;
           left: 365px;
+        }
+
+        @media #{$max__screen__2560} {
+          bottom: 370px;
+          left: 570px;
         }
       }
     }
