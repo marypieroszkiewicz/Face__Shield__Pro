@@ -1261,6 +1261,27 @@
           padding: 15px 0 15px 15px;
         }
 
+        @media #{$tablet__768} {
+          padding: 18px 0 18px 18px;
+        }
+
+        @media #{$tablet_land__1024} {
+          top: 90px;
+          right: 50px;
+        }
+
+        @media #{$desktop__1280} {
+          padding: 20px 0 20px 20px;
+        }
+
+        @media #{$large__screens__1440} {
+          padding: 24px 0 24px 24px;
+        }
+
+        @media #{$full__screens__1600} {
+
+        }
+
         @media #{$HD__screens__1920} {
           top: 195px;
           right: 130px;
@@ -1280,6 +1301,33 @@
           top: 100px;
           left: 60px;
           padding: 15px 15px 15px 0;
+        }
+
+        @media #{$tablet__768} {
+          top: 120px;
+          padding: 18px 18px 18px 0;
+        }
+
+        @media #{$tablet_land__1024} {
+          top: 180px;
+          left: 115px;
+        }
+
+        @media #{$desktop__1280} {
+          top: 228px;
+          left: 220px;
+          padding: 20px 20px 20px 0;
+        }
+
+        @media #{$large__screens__1440} {
+          top: 259px;
+          left: 240px;
+          padding: 24px 24px 24px 0;
+        }
+
+        @media #{$full__screens__1600} {
+          top: 295px;
+          left: 280px;
         }
 
         @media #{$HD__screens__1920} {
