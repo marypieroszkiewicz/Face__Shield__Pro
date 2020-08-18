@@ -169,43 +169,52 @@
       position: absolute;
       left: 50%;
       transform: translateX(-50%);
-      bottom: 12px;
+      // bottom: 12px;
+      bottom: 3.750vw;
       width: 100%;
       text-shadow: 5px 5px 10px $black;
 
       @media #{$mobile_land__640} {
         font-size: rem(30px);
-        bottom: 34px;
+        // bottom: 34px;
+        bottom: 5.313vw;
       }
 
       @media #{$tablet__768} {
-        bottom: 45px;
+        // bottom: 45px;
+        bottom: 5.859vw;
       }
 
       @media #{$tablet_land__1024} {
         font-size: rem(35px);
-        bottom: 60px;
+        // bottom: 60px;
+        bottom: 5.859vw;
       }
 
       @media #{$desktop__1280} {
-        bottom: 80px;
+        // bottom: 80px;
+        bottom: 6.250vw;
       }
 
       @media #{$large__screens__1440} {
         font-size: rem(40px);
-        bottom: 90px;
+        // bottom: 90px;
+        bottom: 6.250vw;
       }
       @media #{$full__screens__1600} {
-        bottom: 106px;
+        // bottom: 106px;
+        bottom: 6.625vw;
       }
 
       @media #{$HD__screens__1920} {
-        font-size: 50px;
-        bottom: 147px;
+        font-size: rem(50px);
+        // bottom: 147px;
+        bottom: 7.656vw;
       }
 
       @media #{$max__screen__2560} {
-        bottom: 185px;
+        // bottom: 185px;
+        bottom: 7.227vw;
       }
     }
   }
@@ -228,57 +237,72 @@
 
     &-content {
       position: absolute;
-      right: 5px;
-      bottom: 15px;
+      // right: 5px;
+      // bottom: 15px;
+      right: 1.5625%;
+      bottom: 4.688vw;
       padding: rem(10px 0 10px 10px);
       border-left: 1px solid $shakespeare;
       border-bottom: 1px solid $shakespeare;
       font-size: rem(12px);
 
       @media #{$mobile_land__640} {
-        right: 60px;
-        bottom: 45px;
+        // right: 60px;
+        // bottom: 45px;
+        right: 9.375%;
+        bottom: 7.031vw;
         padding: rem(15px 0 15px 15px);
         font-size: rem(16px);
       }
 
       @media #{$tablet__768} {
-        right: 80px;
-        bottom: 55px;
+        // right: 80px;
+        // bottom: 55px;
+        right: 10.416666666666667%;
+        bottom: 7.161vw;
         padding: rem(18px 0 18px 18px);
         font-size: rem(20px);
       }
 
       @media #{$tablet_land__1024} {
-        right: 40px;
+        // right: 40px;
+        right: 3.90625%;
         font-size: rem(22px);
         width: 37%;
       }
 
       @media #{$desktop__1280} {
-        right: 50px;
-        bottom: 80px;
+        // right: 50px;
+        // bottom: 80px;
+        right: 3.90625%;
+        bootom: 6.250vw;
         font-size: rem(24px);
         padding: rem(20px 0 20px 20px);
         width: auto;
       }
 
       @media #{$large__screens__1440} {
-        right: 70px;
-        bottom: 90px;
+        // right: 70px;
+        // bottom: 90px;
+        right: 4.861111111111111%;
+        bottom: 6.250vw;
         font-size: rem(26px);
         padding: rem(24px 0 24px 24px);
       }
 
       @media #{$full__screens__1600} {
-        right: 100px;
-        bottom: 100px;
+        // right: 100px;
+        // bottom: 100px;
+        roght: 6.25%;
+        bottom: 6.250vw;
         font-size: rem(28px);
       }
 
       @media #{$HD__screens__1920} {
-        right: 160px;
-        bottom: 109px;
+        // right: 160px;
+        // bottom: 109px;
+        right: 8.333333333333333%;
+        bottom: 5.677vw;
         padding: rem(0 0 35px 62px);
         border-left: 1px solid $shakespeare;
         border-bottom: 1px solid $shakespeare;
@@ -286,8 +310,10 @@
       }
 
       @media #{$max__screen__2560} {
-        right: 420px;
-        bottom: 209px;
+        // right: 420px;
+        // bottom: 209px;
+        right: 16.40625%;
+        bottom: 8.164vw;
       }
     }
 
