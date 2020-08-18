@@ -688,6 +688,7 @@
       width: 100vw;
       left: 50%;
       transform: translateX(-50%);
+      padding-bottom: calc(1440 / 1920 * 100%);
     }
 
     &-content {
@@ -739,6 +740,11 @@
           left: 257px;
           border-right: 1px solid $white;
           text-align: right;
+        }
+
+        @media #{$max__screen__2560} {
+          top: 260px;
+          left: 455px;
         }
       }
 
