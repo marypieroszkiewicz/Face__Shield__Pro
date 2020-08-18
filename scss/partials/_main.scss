@@ -833,55 +833,72 @@
       }
 
       &--2 {
-        top: 5px;
-        right: 65px;
-        
+        // top: 5px;
+        // right: 65px;
+        top: 1.563vw;
+        right: 20.3125%;
         padding: rem(10px 0 0 10px);
         border-left: 1px solid $white;
 
         @media #{$mobile_land__640} {
-          top: 40px;
-          right: 95px;
+          // top: 40px;
+          // right: 95px;
+          top: 6.250vw;
+          right: 14.84375%;
           padding: rem(15px 0 15px 15px);
         }
 
         @media #{$tablet__768} {
-          top: 50px;
-          right: 102px;
+          // top: 50px;
+          // right: 102px;
+          top: 6.510vw;
+          right: 13.28125%;
           padding: rem(18px 0 18px 18px);
         }
 
         @media #{$tablet_land__1024} {
-          top: 80px;
-          right: 202px;
+          // top: 80px;
+          // right: 202px;
+          top: 7.813vw;
+          right: 9.9609375%;
         }
 
         @media #{$desktop__1280} {
-          top: 115px;
-          right: 302px;
+          // top: 115px;
+          // right: 302px;
+          top: 8.984vw;
+          right: 23.59375%;
           padding: rem(20px 0 20px 20px);
         }
 
         @media #{$large__screens__1440} {
-          top: 125px;
-          right: 355px;
+          // top: 125px;
+          // right: 355px;
+          top: 8.681vw;
+          right: 24.65277777777778%;
           padding: rem(24px 0 24px 24px);
         }
 
         @media #{$full__screens__1600} {
-          top: 145px;
-          right: 405px;
+          // top: 145px;
+          // right: 405px;
+          top: 9.063vw;
+          right: 25.3125%;
         }
 
         @media #{$HD__screens__1920} {
-          top: 160px;
-          right: 535px;
+          // top: 160px;
+          // right: 535px;
+          top: 8.333vw;
+          right: 27.86458333333333%;
           padding: rem(29px 0 42px 29px);
         }
 
         @media #{$max__screen__2560} {
-          top: 240px;
-          right: 868px;
+          // top: 240px;
+          // right: 868px;
+          top: 9.375vw;
+          right: 33.90625%;
         }
       }
 
