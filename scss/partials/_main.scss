@@ -862,8 +862,8 @@
         border-right: 1px solid $white;
 
         @media #{$mobile_land__640} {
-          bottom: 40px;
-          left: 120px;
+          bottom: 50px;
+          left: 75px;
           padding: 15px 15px 15px 0;
         }
 
@@ -1216,10 +1216,6 @@
           padding: 24px 0 24px 24px;
         }
 
-        @media #{$full__screens__1600} {
-
-        }
-
         @media #{$HD__screens__1920} {
           padding: 39px 0 68px 48px;
         }
@@ -1259,6 +1255,12 @@
         border-top: 1px solid $pacific-blue;
         border-left: 1px solid $pacific-blue;
 
+        @media #{$mobile_land__640} {
+          top: 15px;
+          right: 40px;
+          padding: 15px 0 15px 15px;
+        }
+
         @media #{$HD__screens__1920} {
           top: 195px;
           right: 130px;
@@ -1274,6 +1276,12 @@
         border-top: 1px solid $zambezi;
         border-right: 1px solid $zambezi;
 
+        @media #{$mobile_land__640} {
+          top: 100px;
+          left: 60px;
+          padding: 15px 15px 15px 0;
+        }
+
         @media #{$HD__screens__1920} {
           top: 255px;
           left: 500px;
@@ -1288,10 +1296,35 @@
 
       &--3 {
         left: 20px;
-        bottom: 15px;
+        bottom: 10px;
         padding: 10px 10px 10px 0;
         border-right: 1px solid $pacific-blue;
         border-bottom: 1px solid $pacific-blue;
+
+        @media #{$mobile_land__640} {
+          left: 40px;
+          bottom: 35px;
+          padding: 15px 15px 15px 0;
+        }
+
+        @media #{$tablet__768} {
+          padding: 18px 18px 18px 0;
+        }
+
+        @media #{$tablet_land__1024} {
+        }
+
+        @media #{$desktop__1280} {
+          padding: 20px 20px 20px 0;
+        }
+
+        @media #{$large__screens__1440} {
+          padding: 24px 24px 24px 0;
+        }
+
+        @media #{$full__screens__1600} {
+
+        }
 
         @media #{$HD__screens__1920} {
           left: 290px;
@@ -1308,13 +1341,42 @@
       color: $shakespeare;
       font-size: 12px;
 
+      @media #{$mobile_land__640} {
+        font-size: 16px;
+      }
+
+      @media #{$tablet__768} {
+        font-size: 20px;
+      }
+
+      @media #{$tablet_land__1024} {
+        font-size: 22px;
+      }
+
+      @media #{$desktop__1280} {
+        font-size: 24px;
+      }
+
+      @media #{$large__screens__1440} {
+        font-size: 26px;
+      }
+
+      @media #{$full__screens__1600} {
+        font-size: 28px;
+      }
+
       @media #{$HD__screens__1920} {
         font-size: 30px;
+        white-space: normal;
       }
 
       &--2 {
         color: $zambezi;
         text-align: right;
+
+        @media #{$mobile_land__640} {
+          white-space: normal;
+        }
       }
     }
   }
