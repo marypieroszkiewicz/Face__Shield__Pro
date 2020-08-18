@@ -28,44 +28,44 @@
       left: 20px;
       bottom: 10px;
       text-align: right;
-      padding: 10px 10px 10px 0;
+      padding: rem(10px 10px 10px 0);
       border-bottom: 1px solid $shakespeare;
       border-right: 1px solid $shakespeare;
-      font-size: 12px;
+      font-size: rem(12px);
 
       @media #{$mobile_land__640} {
         left: 40px;
         bottom: 30px;
-        padding: 15px 15px 15px 0;
+        padding: rem(15px 15px 15px 0);
         font-size: 16px;
       }
 
       @media #{$tablet__768} {
-        padding: 18px 18px 18px 0;
+        padding: rem(18px 18px 18px 0);
         bottom: 50px;
-        font-size: 20px;
+        font-size: rem(20px);
       }
 
       @media #{$tablet_land__1024} {
-        font-size: 22px;
+        font-size: rem(22px);
       }
 
       @media #{$desktop__1280} {
         left: 60px;
         bottom: 80px;
-        font-size: 24px;
-        padding: 20px 20px 20px 0;
+        font-size: rem(24px);
+        padding: rem(20px 20px 20px 0);
       }
 
       @media #{$large__screens__1440} {
-        font-size: 26px;
+        font-size: rem(26px);
         left: 80px;
         bottom: 100px;
-        padding: 24px 24px 24px 0;
+        padding: rem(24px 24px 24px 0);
       }
 
       @media #{$full__screens__1600} {
-        font-size: 28px;
+        font-size: rem(28px);
         left: 100px;
         bottom: 120px;
       }
@@ -73,8 +73,8 @@
       @media #{$HD__screens__1920} {
         left: 130px;
         bottom: 212px;
-        padding: 50px 50px 24px 0;
-        font-size: 30px;
+        padding: rem(50px 50px 24px 0);
+        font-size: rem(30px);
       }
 
       @media #{$max__screen__2560} {
@@ -86,26 +86,26 @@
     &-title {
       color: $shakespeare;
       text-transform: uppercase;
-      padding-bottom: 5px;
+      padding-bottom: rem(5px);
 
       @media #{$mobile_land__640} {
-        padding-bottom: 10px;
+        padding-bottom: rem(10px);
       }
 
       @media #{$tablet__768} {
-        padding-bottom: 15px;
+        padding-bottom: rem(15px);
       }
 
       @media #{$tablet_land__1024} {
-        padding-bottom: 20px;
+        padding-bottom: rem(20px);
       }
 
       @media #{$desktop__1280} {
-        padding-bottom: 22px;
+        padding-bottom: rem(22px);
       }
 
       @media #{$HD__screens__1920} {
-        padding-bottom: 62px;
+        padding-bottom: rem(62px);
       }
     }
 
@@ -215,59 +215,59 @@
       position: absolute;
       right: 5px;
       bottom: 15px;
-      padding: 10px 0 10px 10px;
+      padding: rem(10px 0 10px 10px);
       border-left: 1px solid $shakespeare;
       border-bottom: 1px solid $shakespeare;
-      font-size: 12px;
+      font-size: rem(12px);
 
       @media #{$mobile_land__640} {
         right: 60px;
         bottom: 45px;
-        padding: 15px 0 15px 15px;
-        font-size: 16px;
+        padding: rem(15px 0 15px 15px);
+        font-size: rem(16px);
       }
 
       @media #{$tablet__768} {
         right: 80px;
         bottom: 55px;
-        padding: 18px 0 18px 18px;
-        font-size: 20px;
+        padding: rem(18px 0 18px 18px);
+        font-size: rem(20px);
       }
 
       @media #{$tablet_land__1024} {
         right: 40px;
-        font-size: 22px;
+        font-size: rem(22px);
         width: 37%;
       }
 
       @media #{$desktop__1280} {
         right: 50px;
         bottom: 80px;
-        font-size: 24px;
-        padding: 20px 0 20px 20px;
+        font-size: rem(24px);
+        padding: rem(20px 0 20px 20px);
         width: auto;
       }
 
       @media #{$large__screens__1440} {
         right: 70px;
         bottom: 90px;
-        font-size: 26px;
-        padding: 24px 0 24px 24px;
+        font-size: rem(26px);
+        padding: rem(24px 0 24px 24px);
       }
 
       @media #{$full__screens__1600} {
         right: 100px;
         bottom: 100px;
-        font-size: 28px;
+        font-size: rem(28px);
       }
 
       @media #{$HD__screens__1920} {
         right: 160px;
         bottom: 109px;
-        padding: 0 0 35px 62px;
+        padding: rem(0 0 35px 62px);
         border-left: 1px solid $shakespeare;
         border-bottom: 1px solid $shakespeare;
-        font-size: 30px;
+        font-size: rem(30px);
       }
 
       @media #{$max__screen__2560} {
@@ -279,26 +279,26 @@
     &-title {
       color: $shakespeare;
       text-transform: uppercase;
-      padding-bottom: 10px;
+      padding-bottom: rem(10px);
 
       @media #{$mobile_land__640} {
-        padding-bottom: 10px;
+        padding-bottom: rem(10px);
       }
 
       @media #{$tablet__768} {
-        padding-bottom: 15px;
+        padding-bottom: rem(15px);
       }
 
       @media #{$tablet_land__1024} {
-        padding-bottom: 20px;
+        padding-bottom: rem(20px);
       }
 
       @media #{$desktop__1280} {
-        padding-bottom: 22px;
+        padding-bottom: rem(22px);
       }
 
       @media #{$HD__screens__1920} {
-        padding-bottom: 56px;
+        padding-bottom: rem(56px);
       }
     }
   }
@@ -322,21 +322,19 @@
 
     &-graphics {
       width: calc(100% - 40px);
-      margin: 20px auto;
+      margin: rem(20px auto);
 
       @media #{$mobile_land__640} {
         width: calc(100% - 80px);
-        margin: 40px auto;
+        margin: rem(40px auto);
       }
 
       @media #{$tablet__768} {
-        // width: calc(100% - 120px);
         width: 50%;
         margin: 0;
       }
 
       @media #{$HD__screens__1920} {
-        margin: 0;
         width: 46.25%;
       }
 
@@ -355,28 +353,28 @@
       display: flex;
       flex-direction: column;
       width: 100%;
-      padding: 0 20px 20px;
+      padding: rem(0 20px 20px);
 
       @media #{$mobile_land__640} {
-        padding: 0 40px 20px;
+        padding: rem(0 40px 20px);
       }
 
       @media #{$tablet__768} {
         width: 50%;
-        padding: 20px 60px 20px 30px;
+        padding: rem(20px 60px 20px 30px);
       }
 
       @media #{$tablet_land__1024} {
-        padding: 40px 40px 20px 40px;
+        padding: rem(40px 40px 20px 40px);
       }
 
       @media #{$desktop__1280} {
-        padding: 0 50px;
+        padding: rem(0 50px);
       }
 
       @media #{$HD__screens__1920} {
         width: 53.75%;
-        padding: 110px 0 0 134px;
+        padding: rem(110px 0 0 134px);
       }
 
       @media #{$max__screen__2560} {
@@ -385,71 +383,71 @@
     }
 
     &-text {
-      font-size: 14px;
+      font-size: rem(14px);
       color: $scorpion;
 
       @media #{$mobile_land__640} {
-        font-size: 16px;
+        font-size: rem(16px);
       }
 
       @media #{$tablet__768} {
-        font-size: 20px;
+        font-size: rem(20px);
       }
 
       @media #{$tablet_land__1024} {
-        font-size: 22px;
+        font-size: rem(22px);
       }
 
       @media #{$desktop__1280} {
-        font-size: 24px;
+        font-size: rem(24px);
       }
 
       @media #{$large__screens__1440} {
-        font-size: 26px;
+        font-size: rem(26px);
       }
 
       @media #{$full__screens__1600} {
-        font-size: 28px;
+        font-size: rem(28px);
       }
 
       @media #{$HD__screens__1920} {
         white-space: pre-line;
-        font-size: 30px;
+        font-size: rem(30px);
       }
     }
 
     &-list {
       display: block;
-      padding-left: 15px;
+      padding-left: rem(15px);
       border-left: 1px solid $shakespeare;
-      margin-top: 35px;
-      margin-left: 20px;
+      margin-top: rem(35px);
+      margin-left: rem(20px);
       position: relative;
 
       @media #{$mobile_land__640} {
-        margin-top: 45px;
+        margin-top: rem(45px);
       }
 
       @media #{$tablet_land__1024} {
-        margin-top: 55px;
-        padding-left: 20px;
-        margin-left: 25px;
+        margin-top: rem(55px);
+        padding-left: rem(20px);
+        margin-left: rem(25px);
       }
 
       @media #{$desktop__1280} {
-        margin-top: 65px;
-        padding-left: 25px;
-        margin-left: 30px;
+        margin-top: rem(65px);
+        padding-left: rem(25px);
+        margin-left: rem(30px);
       }
 
       @media #{$large__screens__1440} {
-        margin-top: 70px;
-        padding-left: 30px;
+        margin-top: rem(70px);
+        padding-left: rem(30px);
       }
 
       @media #{$HD__screens__1920} {
-        padding-left: 35px;
-        margin-left: 25px;
+        padding-left: rem(35px);
+        margin-left: rem(25px);
       }
 
       &::before {
@@ -459,24 +457,24 @@
         left: -20px;
         top: -25px;
         color: $shakespeare;
-        font-size: 16px;
+        font-size: rem(16px);
 
         @media #{$mobile_land__640} {
-          font-size: 18px;
+          font-size: rem(18px);
           top: -30px;
         }
 
         @media #{$tablet__768} {
-          font-size: 20px;
+          font-size: rem(20px);
         }
 
         @media #{$tablet_land__1024} {
-          font-size: 22px;
+          font-size: rem(22px);
           top: -35px;
         }
 
         @media #{$desktop__1280} {
-          font-size: 24px;
+          font-size: rem(24px);
           top: -40px;
           left: -30px;
         }
@@ -486,15 +484,15 @@
         }
 
         @media #{$large__screens__1440} {
-          font-size: 26px;
+          font-size: rem(26px);
         }
 
         @media #{$full__screens__1600} {
-          font-size: 28px;
+          font-size: rem(28px);
         }
 
         @media #{$HD__screens__1920} {
-          font-size: 30px;
+          font-size: rem(30px);
           top: -50px;
           left: -30px;
         }
@@ -527,32 +525,32 @@
     }
 
     &-item {
-      font-size: 14px;
+      font-size: rem(14px);
       color: $dove-gray;
 
       @media #{$mobile_land__640} {
-        font-size: 16px;
+        font-size: rem(16px);
       }
 
       @media #{$tablet__768} {
-        font-size: 18px;
+        font-size: rem(18px);
       }
 
       @media #{$tablet_land__1024} {
-        font-size: 20px;
+        font-size: rem(20px);
       }
 
       @media #{$desktop__1280} {
-        font-size: 22px;
+        font-size: rem(22px);
       }
 
       @media #{$large__screens__1440} {
-        font-size: 24px;
+        font-size: rem(24px);
       }
 
 
       &:last-child {
-        padding-bottom: 5px;
+        padding-bottom: rem(5px);
 
         @media #{$tablet__768} {
           padding-bottom: 0;
@@ -560,7 +558,7 @@
       }
 
       @media #{$HD__screens__1920} {
-        font-size: 20px;
+        font-size: rem(20px);
       }
     }
   }
@@ -585,7 +583,7 @@
       position: absolute;
       top: 10px;
       left: 20px;
-      padding: 10px 10px 10px 0;
+      padding: rem(10px 10px 10px 0);
       border-top: 1px solid $shakespeare;
       border-right: 1px solid $shakespeare;
       text-align: right;
@@ -593,12 +591,12 @@
       @media #{$mobile_land__640} {
         top: 100px;
         left: 40px;
-        padding: 15px 15px 15px 0;
+        padding: rem(15px 15px 15px 0);
       }
 
       @media #{$tablet__768} {
         left: 60px;
-        padding: 18px 18px 18px 0;
+        padding: rem(18px 18px 18px 0);
       }
 
       @media #{$tablet_land__1024} {
@@ -609,13 +607,13 @@
       @media #{$desktop__1280} {
         left: 120px;
         top: 300px;
-        padding: 20px 20px 20px 0;
+        padding: rem(20px 20px 20px 0);
       }
 
       @media #{$large__screens__1440} {
         left: 150px;
         top: 340px;
-        padding: 24px 24px 24px 0;
+        padding: rem(24px 24px 24px 0);
       }
 
       @media #{$full__screens__1600} {
@@ -627,8 +625,8 @@
         top: 470px;
         left: 270px;
         transform: translateX(-10%);
-        padding-top: 30px;
-        padding-right: 40px;
+        padding-top: rem(30px);
+        padding-right: rem(40px);
       }
 
       @media #{$max__screen__2560} {
@@ -640,37 +638,37 @@
 
     &-text {
       color: $shakespeare;
-      font-size: 12px;
+      font-size: rem(12px);
       text-transform: uppercase;
       white-space: pre-line;
       display: block;
 
       @media #{$mobile_land__640} {
-        font-size: 16px;
+        font-size: rem(16px);
       }
 
       @media #{$tablet__768} {
-        font-size: 20px;
+        font-size: rem(20px);
       }
 
       @media #{$tablet_land__1024} {
-        font-size: 22px;
+        font-size: rem(22px);
       }
 
       @media #{$desktop__1280} {
-        font-size: 24px;
+        font-size: rem(24px);
       }
 
       @media #{$large__screens__1440} {
-        font-size: 26px;
+        font-size: rem(26px);
       }
 
       @media #{$full__screens__1600} {
-        font-size: 28px;
+        font-size: rem(28px);
       }
 
       @media #{$HD__screens__1920} {
-        font-size: 30px;
+        font-size: rem(30px);
       }
     }
   }
@@ -698,36 +696,36 @@
       &--1 {
         top: 4px;
         left: 30px;
-        padding: 10px 10px 0 0;
+        padding: rem(10px 10px 0 0);
         border-right: 1px solid $white;
         text-align: right;
 
         @media #{$mobile_land__640} {
           top: 30px;
           left: 40px;
-          padding: 15px 15px 15px 0;
+          padding: rem(15px 15px 15px 0);
         }
 
         @media #{$tablet__768} {
           left: 60px;
-          padding: 18px 18px 18px 0;
+          padding: rem(18px 18px 18px 0);
         }
 
         @media #{$tablet_land__1024} {
           top: 70px;
           left: 45px;
           white-space: pre-line;
-          padding: 0 18px 18px 0;
+          padding: rem(0 18px 18px 0);
         }
 
         @media #{$desktop__1280} {
           top: 110px;
           left: 100px;
-          padding: 0 20px 20px 0;
+          padding: rem(0 20px 20px 0);
         }
 
         @media #{$large__screens__1440} {
-          padding: 0 24px 24px 0;
+          padding: rem(0 24px 24px 0);
         }
 
         @media #{$full__screens__1600} {
@@ -751,19 +749,19 @@
       &--2 {
         top: 5px;
         right: 65px;
-        padding: 10px 0 0 10px;
+        padding: rem(10px 0 0 10px);
         border-left: 1px solid $white;
 
         @media #{$mobile_land__640} {
           top: 40px;
           right: 95px;
-          padding: 15px 0 15px 15px;
+          padding: rem(15px 0 15px 15px);
         }
 
         @media #{$tablet__768} {
           top: 50px;
           right: 102px;
-          padding: 18px 0 18px 18px;
+          padding: rem(18px 0 18px 18px);
         }
 
         @media #{$tablet_land__1024} {
@@ -774,13 +772,13 @@
         @media #{$desktop__1280} {
           top: 115px;
           right: 302px;
-          padding: 20px 0 20px 20px;
+          padding: rem(20px 0 20px 20px);
         }
 
         @media #{$large__screens__1440} {
           top: 125px;
           right: 355px;
-          padding: 24px 0 24px 24px;
+          padding: rem(24px 0 24px 24px);
         }
 
         @media #{$full__screens__1600} {
@@ -791,7 +789,7 @@
         @media #{$HD__screens__1920} {
           top: 160px;
           right: 535px;
-          padding: 29px 0 42px 29px;
+          padding: rem(29px 0 42px 29px);
         }
 
         @media #{$max__screen__2560} {
@@ -803,19 +801,19 @@
       &--3 {
         top: 55px;
         right: 10px;
-        padding: 10px 0 0 10px;
+        padding: rem(10px 0 0 10px);
         border-left: 1px solid $white;
 
         @media #{$mobile_land__640} {
           top: 80px;
           right: 25px;
-          padding: 15px 0 0 15px;
+          padding: rem(15px 0 0 15px);
         }
 
         @media #{$tablet__768} {
           top: 97px;
           right: 24px;
-          padding: 18px 0 0 18px;
+          padding: rem(18px 0 0 18px);
         }
 
         @media #{$tablet_land__1024} {
@@ -826,13 +824,13 @@
         @media #{$desktop__1280} {
           top: 180px;
           right: 45px;
-          padding: 20px 0 20px 20px;
+          padding: rem(20px 0 20px 20px);
         }
 
         @media #{$large__screens__1440} {
           top: 205px;
           right: 60px;
-          padding: 24px 0 24px 24px;
+          padding: rem(24px 0 24px 24px);
         }
 
         @media #{$full__screens__1600} {
@@ -843,7 +841,7 @@
         @media #{$HD__screens__1920} {
           top: 255px;
           right: 178px;
-          padding: 29px 0 42px 29px;
+          padding: rem(29px 0 42px 29px);
         }
 
         @media #{$max__screen__2560} {
@@ -856,7 +854,7 @@
         bottom: 3px;
         left: 38px;
         text-align: right;
-        padding: 0 10px 10px 0;
+        padding: rem(0 10px 10px 0);
         border-top: 0;
         border-bottom: 1px solid $white;
         border-right: 1px solid $white;
@@ -864,13 +862,13 @@
         @media #{$mobile_land__640} {
           bottom: 50px;
           left: 75px;
-          padding: 15px 15px 15px 0;
+          padding: rem(15px 15px 15px 0);
         }
 
         @media #{$tablet__768} {
           bottom: 70px;
           left: 88px;
-          padding: 18px 18px 18px 0;
+          padding: rem(18px 18px 18px 0);
         }
 
         @media #{$tablet_land__1024} {
@@ -881,13 +879,13 @@
         @media #{$desktop__1280} {
           bottom: 160px;
           left: 210px;
-          padding: 20px 20px 20px 0;
+          padding: rem(20px 20px 20px 0);
         }
 
         @media #{$large__screens__1440} {
           bottom: 180px;
           left: 240px;
-          padding: 24px 24px 24px 0;
+          padding: rem(24px 24px 24px 0);
         }
 
         @media #{$full__screens__1600} {
@@ -910,35 +908,35 @@
     &-text {
       color: $white;
       text-transform: uppercase;
-      font-size: 12px;
+      font-size: rem(12px);
 
       @media #{$mobile_land__640} {
-        font-size: 16px;
+        font-size: rem(16px);
       }
 
       @media #{$tablet__768} {
-        font-size: 20px;
+        font-size: rem(20px);
       }
 
       @media #{$tablet_land__1024} {
-        font-size: 22px;
+        font-size: rem(22px);
       }
 
       @media #{$desktop__1280} {
-        font-size: 24px;
+        font-size: rem(24px);
       }
 
       @media #{$large__screens__1440} {
-        font-size: 26px;
+        font-size: rem(26px);
       }
 
       @media #{$full__screens__1600} {
-        font-size: 28px;
+        font-size: rem(28px);
       }
 
       @media #{$HD__screens__1920} {
         white-space: pre-line;
-        font-size: 30px;
+        font-size: rem(30px);
       }
     }
   }
@@ -958,26 +956,26 @@
 
     &-title {
       margin: 0 auto;
-      padding: 40px 0;
+      padding: rem(40px 0);
       width: 50%;
 
       @media #{$mobile_land__640} {
         width: 35%;
-        padding: 50px 0;
+        padding: rem(50px 0);
       }
 
       @media #{$tablet_land__1024} {
         width: 30%;
-        padding: 60px 0;
+        padding: rem(60px 0);
       }
 
       @media #{$desktop__1280} {
         width: 25%;
-        padding: 75px 0;
+        padding: rem(75px 0);
       }
 
       @media #{$HD__screens__1920} {
-        padding: 85px 0;
+        padding: rem(85px 0);
         width: 23.177083333333334%;
       }
     }
@@ -988,38 +986,38 @@
 
       @media #{$tablet_land__1024} {
         flex-wrap: nowrap;
-        padding: 0 50px 50px;
+        padding: rem(0 50px 50px);
       }
 
       @media #{$HD__screens__1920} {
         margin: 0;
-        padding: 0 133px 96px;
+        padding: rem(0 133px 96px);
       }
 
       &__box {
         border: 3px solid $white;
         border-radius: 10px;
         width: calc(100% - 40px);
-        margin: 0 auto 20px;
+        margin: rem(0 auto 20px);
 
         @media #{$mobile_land__640} {
           width: calc(100% - 80px);
-          margin: 0 auto 40px;
+          margin: rem(0 auto 40px);
         }
 
         @media #{$tablet__768} {
           width: calc(100% - 120px);
-          margin: 0 auto 60px;
+          margin: rem(0 auto 60px);
         }
 
         @media #{$tablet_land__1024} {
           width: calc(100% / 3);
-          margin: 0 30px 0 0;
+          margin: rem(0 30px 0 0);
         }
 
         @media #{$HD__screens__1920} {
           width: calc(100% / 3);
-          margin: 0 156px 0 0;
+          margin: rem(0 156px 0 0);
         }
 
         &--3 {
@@ -1030,20 +1028,20 @@
       }
 
       &__graphics {
-        padding: 35px 0;
+        padding: rem(35px 0);
 
         &--1 {
 
           @media #{$tablet_land__1024} {
-            padding-top: 62px;
+            padding-top: rem(62px);
           }
 
           @media #{$desktop__1280} {
-            padding-top: 68px;
+            padding-top: rem(68px);
           }
 
           @media #{$HD__screens__1920} {
-            padding-top: 67px;
+            padding-top: rem(67px);
           }
         }
       }
@@ -1113,19 +1111,19 @@
         color: $white;
         white-space: pre-line;
         text-transform: uppercase;
-        font-size: 20px;
-        padding-top: 30px;
+        font-size: rem(20px);
+        padding-top: rem(30px);
 
         @media #{$mobile_land__640} {
-          font-size: 25px;
+          font-size: rem(25px);
         }
 
         @media #{$tablet__768} {
-          font-size: 30px;
+          font-size: rem(30px);
         }
 
         @media #{$HD__screens__1920} {
-          padding-top: 51px;
+          padding-top: rem(51px);
         }
       }
     }
@@ -1139,10 +1137,6 @@
     width: 100%;
     height: 0;
     padding-bottom: calc(1280 / 1920 * 100%);
-
-    @media #{$HD__screens__1920} {
-      display: block;
-    }
 
     @media #{$max__screen__2560} {
       width: 100vw;
@@ -1196,28 +1190,28 @@
       }
 
       &__border {
-        padding: 10px 0 10px 10px;
+        padding: rem(10px 0 10px 10px);
         border-top: 1px solid $pacific-blue;
         border-left: 1px solid $pacific-blue;
 
         @media #{$mobile_land__640} {
-          padding: 15px 0 15px 15px;
+          padding: rem(15px 0 15px 15px);
         }
 
         @media #{$tablet__768} {
-          padding: 18px 0 18px 18px;
+          padding: rem(18px 0 18px 18px);
         }
 
         @media #{$desktop__1280} {
-          padding: 20px 0 20px 20px;
+          padding: rem(20px 0 20px 20px);
         }
 
         @media #{$large__screens__1440} {
-          padding: 24px 0 24px 24px;
+          padding: rem(24px 0 24px 24px);
         }
 
         @media #{$HD__screens__1920} {
-          padding: 39px 0 68px 48px;
+          padding: rem(39px 0 68px 48px);
         }
       }
     }
@@ -1232,12 +1226,6 @@
     height: 0;
     padding-bottom: calc(1300 / 1920 * 100%);
 
-    //display: none;
-
-    @media #{$HD__screens__1920} {
-      display: block;
-    }
-
     @media #{$max__screen__2560} {
       width: 100vw;
       left: 50%;
@@ -1251,18 +1239,18 @@
       &--1 {
         top: 15px;
         right: 20px;
-        padding: 10px 0 10px 10px;
+        padding: rem(10px 0 10px 10px);
         border-top: 1px solid $pacific-blue;
         border-left: 1px solid $pacific-blue;
 
         @media #{$mobile_land__640} {
           top: 15px;
           right: 40px;
-          padding: 15px 0 15px 15px;
+          padding: rem(15px 0 15px 15px);
         }
 
         @media #{$tablet__768} {
-          padding: 18px 0 18px 18px;
+          padding: rem(18px 0 18px 18px);
         }
 
         @media #{$tablet_land__1024} {
@@ -1273,13 +1261,13 @@
         @media #{$desktop__1280} {
           top: 140px;
           right: 100px;
-          padding: 20px 0 20px 20px;
+          padding: rem(20px 0 20px 20px);
         }
 
         @media #{$large__screens__1440} {
           top: 155px;
           right: 110px;
-          padding: 24px 0 24px 24px;
+          padding: rem(24px 0 24px 24px);
         }
 
         @media #{$full__screens__1600} {
@@ -1290,7 +1278,7 @@
         @media #{$HD__screens__1920} {
           top: 195px;
           right: 130px;
-          padding: 30px 0 60px 30px;
+          padding: rem(30px 0 60px 30px);
         }
 
         @media #{$max__screen__2560} {
@@ -1303,19 +1291,19 @@
         position: absolute;
         top: 25px;
         left: 20px;
-        padding: 10px 10px 10px 0;
+        padding: rem(10px 10px 10px 0);
         border-top: 1px solid $zambezi;
         border-right: 1px solid $zambezi;
 
         @media #{$mobile_land__640} {
           top: 100px;
           left: 60px;
-          padding: 15px 15px 15px 0;
+          padding: rem(15px 15px 15px 0);
         }
 
         @media #{$tablet__768} {
           top: 120px;
-          padding: 18px 18px 18px 0;
+          padding: rem(18px 18px 18px 0);
         }
 
         @media #{$tablet_land__1024} {
@@ -1326,13 +1314,13 @@
         @media #{$desktop__1280} {
           top: 228px;
           left: 220px;
-          padding: 20px 20px 20px 0;
+          padding: rem(20px 20px 20px 0);
         }
 
         @media #{$large__screens__1440} {
           top: 259px;
           left: 240px;
-          padding: 24px 24px 24px 0;
+          padding: rem(24px 24px 24px 0);
         }
 
         @media #{$full__screens__1600} {
@@ -1343,7 +1331,7 @@
         @media #{$HD__screens__1920} {
           top: 255px;
           left: 500px;
-          padding: 30px 30px 60px 0;
+          padding: rem(30px 30px 60px 0);
         }
 
         @media #{$max__screen__2560} {
@@ -1355,20 +1343,20 @@
       &--3 {
         left: 20px;
         bottom: 10px;
-        padding: 10px 10px 10px 0;
+        padding: rem(10px 10px 10px 0);
         border-right: 1px solid $pacific-blue;
         border-bottom: 1px solid $pacific-blue;
 
         @media #{$mobile_land__640} {
           left: 40px;
           bottom: 35px;
-          padding: 15px 15px 15px 0;
+          padding: rem(15px 15px 15px 0);
         }
 
         @media #{$tablet__768} {
           left: 40px;
           bottom: 45px;
-          padding: 18px 18px 18px 0;
+          padding: rem(18px 18px 18px 0);
         }
 
         @media #{$tablet_land__1024} {
@@ -1379,11 +1367,11 @@
         @media #{$desktop__1280} {
           left: 115px;
           bottom: 160px;
-          padding: 20px 20px 20px 0;
+          padding: rem(20px 20px 20px 0);
         }
 
         @media #{$large__screens__1440} {
-          padding: 24px 24px 24px 0;
+          padding: rem(24px 24px 24px 0);
         }
 
         @media #{$full__screens__1600} {
@@ -1394,7 +1382,7 @@
         @media #{$HD__screens__1920} {
           left: 290px;
           bottom: 163px;
-          padding: 60px 30px 30px 0;
+          padding: rem(60px 30px 30px 0);
         }
 
         @media #{$max__screen__2560} {
@@ -1409,34 +1397,34 @@
       text-transform: uppercase;
       white-space: pre-line;
       color: $shakespeare;
-      font-size: 12px;
+      font-size: rem(12px);
 
       @media #{$mobile_land__640} {
-        font-size: 16px;
+        font-size: rem(16px);
       }
 
       @media #{$tablet__768} {
-        font-size: 20px;
+        font-size: rem(20px);
       }
 
       @media #{$tablet_land__1024} {
-        font-size: 22px;
+        font-size: rem(22px);
       }
 
       @media #{$desktop__1280} {
-        font-size: 24px;
+        font-size: rem(24px);
       }
 
       @media #{$large__screens__1440} {
-        font-size: 26px;
+        font-size: rem(26px);
       }
 
       @media #{$full__screens__1600} {
-        font-size: 28px;
+        font-size: rem(28px);
       }
 
       @media #{$HD__screens__1920} {
-        font-size: 30px;
+        font-size: rem(30px);
         white-space: normal;
       }
 
@@ -1466,26 +1454,26 @@
 
     &-title {
       margin: 0 auto;
-      padding: 40px 0;
+      padding: rem(40px 0);
       width: 50%;
 
       @media #{$mobile_land__640} {
         width: 35%;
-        padding: 50px 0;
+        padding: rem(50px 0);
       }
 
       @media #{$tablet_land__1024} {
         width: 30%;
-        padding: 60px 0;
+        padding: rem(60px 0);
       }
 
       @media #{$desktop__1280} {
         width: 25%;
-        padding: 75px 0;
+        padding: rem(75px 0);
       }
 
       @media #{$HD__screens__1920} {
-        padding: 85px 0;
+        padding: rem(85px 0);
         width: 23.177083333333334%;
       }
     }
@@ -1496,38 +1484,38 @@
 
       @media #{$tablet_land__1024} {
         flex-wrap: nowrap;
-        padding: 0 50px 50px;
+        padding: rem(0 50px 50px);
       }
 
       @media #{$HD__screens__1920} {
         margin: 0;
-        padding: 0 133px 96px;
+        padding: rem(0 133px 96px);
       }
 
       &__box {
         border: 3px solid $white;
         border-radius: 10px;
         width: calc(100% - 40px);
-        margin: 0 auto 20px;
+        margin: rem(0 auto 20px);
 
         @media #{$mobile_land__640} {
           width: calc(100% - 80px);
-          margin: 0 auto 40px;
+          margin: rem(0 auto 40px);
         }
 
         @media #{$tablet__768} {
           width: calc(100% - 120px);
-          margin: 0 auto 60px;
+          margin: rem(0 auto 60px);
         }
 
         @media #{$tablet_land__1024} {
           width: calc(100% / 3);
-          margin: 0 30px 0 0;
+          margin: rem(0 30px 0 0);
         }
 
         @media #{$HD__screens__1920} {
           width: calc(100% / 3);
-          margin: 0 156px 0 0;
+          margin: rem(0 156px 0 0);
         }
 
         &--3 {
@@ -1538,20 +1526,20 @@
       }
 
       &__graphics {
-        padding: 35px 0;
+        padding: rem(35px 0);
 
         &--1 {
 
           @media #{$tablet_land__1024} {
-            padding-top: 62px;
+            padding-top: rem(62px);
           }
 
           @media #{$desktop__1280} {
-            padding-top: 68px;
+            padding-top: rem(68px);
           }
 
           @media #{$HD__screens__1920} {
-            padding-top: 67px;
+            padding-top: rem(67px);
           }
         }
       }
@@ -1621,15 +1609,15 @@
         color: $white;
         white-space: pre-line;
         text-transform: uppercase;
-        font-size: 20px;
-        padding-top: 30px;
+        font-size: rem(20px);
+        padding-top: rem(30px);
 
         @media #{$mobile_land__640} {
-          font-size: 25px;
+          font-size: rem(25px);
         }
 
         @media #{$tablet__768} {
-          font-size: 30px;
+          font-size: rem(30px);
         }
 
         @media #{$HD__screens__1920} {

@@ -8,22 +8,22 @@
   &-ctn {
     display: flex;
     flex-direction: column;
-    padding: 30px 20px;
+    padding: rem(30px 20px);
 
     @media #{$mobile_land__640} {
-      padding: 40px;
+      padding: rem(40px);
     }
 
     @media #{$tablet__768} {
-      padding: 40px 60px;
+      padding: rem(40px 60px);
     }
 
     @media #{$tablet_land__1024} {
-      padding: 50px;
+      padding: rem(50px);
     }
 
     @media #{$HD__screens__1920} {
-      padding: 79px 97px 0;
+      padding: rem(79px 97px 0);
     }
   }
 
@@ -61,32 +61,32 @@
 
   &__contact {
     font-family: $font-third;
-    font-size: 16px;
+    font-size: rem(16px);
     white-space: pre-line;
     color: $dove-gray;
 
     @media #{$mobile_land__640} {
-      font-size: 18px;
-      padding-top: 10px;
+      font-size: rem(18px);
+      padding-top: rem(10px);
     }
 
     @media #{$tablet__768} {
-      font-size: 20px;
+      font-size: rem(20px);
     }
 
     @media #{$tablet_land__1024} {
-      padding-top: 20px;
-      font-size: 22px;
+      padding-top: rem(20px);
+      font-size: rem(22px);
     }
 
     @media #{$large__screens__1440} {
-      padding-top: 25px;
+      padding-top: rem(25px);
     }
 
     @media #{$HD__screens__1920} {
-      font-size: 20px;
+      font-size: rem(20px);
       margin-top: -1em;
-      padding: 57px 0 252px;
+      padding: rem(57px 0 252px);
     }
   }
 }
@@ -106,4 +106,6 @@
 @media #{$full__screens__1600} {
 }
 @media #{$HD__screens__1920} {
+}
+@media #{$max__screen__2560} {
 }

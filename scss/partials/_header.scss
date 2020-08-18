@@ -122,17 +122,17 @@
 
   @media #{$tablet_land__1024} {
     width: 25%;
-    margin-top: -6px;
+    margin-top: rem(-6px);
   }
 
   @media #{$large__screens__1440} {
-    padding: 35px 0;
+    padding: rem(35px 0);
   }
 
   @media #{$full__screens__1600} {
     width: 22%;
     padding: rem(45px 0);
-    margin-top: -8px;
+    margin-top: rem(-8px);
   }
 
   @media #{$HD__screens__1920} {
@@ -416,52 +416,52 @@
     border-top: 1px solid $pacific-blue;
 
     &--1 {
-      padding: 10px 10px 10px 0;
+      padding: rem(10px 10px 10px 0);
       border-right: 1px solid $pacific-blue;
 
       @media #{$mobile_land__640} {
-        padding: 15px 15px 15px 0;
+        padding: rem(15px 15px 15px 0);
       }
 
       @media #{$tablet__768} {
-        padding: 18px 18px 18px 0;
+        padding: rem(18px 18px 18px 0);
       }
 
       @media #{$desktop__1280} {
-        padding: 20px 20px 20px 0;
+        padding: rem(20px 20px 20px 0);
       }
 
       @media #{$large__screens__1440} {
-        padding: 24px 24px 24px 0;
+        padding: rem(24px 24px 24px 0);
       }
 
       @media #{$HD__screens__1920} {
-        padding: 28px 28px 28px 0;
+        padding: rem(28px 28px 28px 0);
       }
     }
 
     &--2 {
-      padding: 10px 0 10px 10px;
+      padding: rem(10px 0 10px 10px);
       border-left: 1px solid $pacific-blue;
 
       @media #{$mobile_land__640} {
-        padding: 15px 0 15px 15px;
+        padding: rem(15px 0 15px 15px);
       }
 
       @media #{$tablet__768} {
-        padding: 18px 0 18px 18px;
+        padding: rem(18px 0 18px 18px);
       }
 
       @media #{$desktop__1280} {
-        padding: 20px 0 20px 20px;
+        padding: rem(20px 0 20px 20px);
       }
 
       @media #{$large__screens__1440} {
-        padding: 24px 0 24px 24px;
+        padding: rem(24px 0 24px 24px);
       }
 
       @media #{$HD__screens__1920} {
-        padding: 28px 0 28px 28px;
+        padding: rem(28px 0 28px 28px);
       }
     }
   }
@@ -474,40 +474,40 @@
     text-align: center;
     color: $tundora;
     font-family: $font-second;
-    font-size: 14px;
-    padding: 0 20px;
+    font-size: rem(14px);
+    padding: rem(0 20px);
 
     @media #{$mobile_land__640} {
-      font-size: 18px;
-      padding: 0 40px;
+      font-size: rem(18px);
+      padding: rem(0 40px);
     }
 
     @media #{$tablet__768} {
-      font-size: 20px;
-      padding: 0 60px;
+      font-size: rem(20px);
+      padding: rem(0 60px);
     }
 
     @media #{$tablet_land__1024} {
-      font-size: 21px;
+      font-size: rem(21px);
       padding: 0;
     }
 
     @media #{$desktop__1280} {
-      font-size: 22px;
+      font-size: rem(22px);
     }
 
     @media #{$large__screens__1440} {
-      font-size: 23px;
+      font-size: rem(23px);
     }
 
     @media #{$full__screens__1600} {
-      font-size: 24px;
+      font-size: rem(24px);
     }
 
     @media #{$HD__screens__1920} {
       position: absolute;
       bottom: 0;
-      font-size: 25px;
+      font-size: rem(25px);
     }
 
     &-text {
@@ -516,64 +516,64 @@
       &--uppercase {
         text-transform: uppercase;
         display: inline-block;
-        padding-bottom: 10px;
+        padding-bottom: rem(10px);
 
         @media #{$mobile_land__640} {
-          padding-bottom: 16px;
+          padding-bottom: rem(16px);
         }
 
         @media #{$tablet__768} {
-          padding-bottom: 20px;
+          padding-bottom: rem(20px);
         }
 
         @media #{$tablet_land__1024} {
-          padding-bottom: 22px;
+          padding-bottom: rem(22px);
         }
 
         @media #{$desktop__1280} {
-          padding-bottom: 24px;
+          padding-bottom: rem(24px);
         }
 
         @media #{$large__screens__1440} {
-          padding-bottom: 28px;
+          padding-bottom: rem(28px);
         }
 
         @media #{$full__screens__1600} {
-          padding-bottom: 32px;
+          padding-bottom: rem(32px);
         }
 
         @media #{$HD__screens__1920} {
-          padding-bottom: 42px;
+          padding-bottom: rem(42px);
         }
       }
 
       &--color {
         display: inline-block;
-        padding: 15px 0 20px;
+        padding: rem(15px 0 20px);
         color: $pacific-blue;
 
         @media #{$mobile_land__640} {
-          padding: 20px 0 30px;
+          padding: rem(20px 0 30px);
         }
 
         @media #{$tablet_land__1024} {
-          padding: 25px 0 35px
+          padding: rem(25px 0 35px);
         }
 
         @media #{$desktop__1280} {
-          padding: 27px 0 40px
+          padding: rem(27px 0 40px);
         }
 
         @media #{$large__screens__1440} {
-          padding: 29px 0 45px
+          padding: rem(29px 0 45px);
         }
 
         @media #{$full__screens__1600} {
-          padding: 34px 0 51px
+          padding: rem(34px 0 51px);
         }
 
         @media #{$HD__screens__1920} {
-          padding: 36px 0 56px;
+          padding: rem(36px 0 56px);
         }
       }
     }
@@ -595,4 +595,6 @@
 @media #{$full__screens__1600} {
 }
 @media #{$HD__screens__1920} {
+}
+@media #{$max__screen__2560} {
 }
