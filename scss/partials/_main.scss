@@ -52,6 +52,10 @@
       }
 
       @media #{$tablet_land__1024} {
+        // left: 90px;
+        // bottom: 110px;
+        left: 8.7890625%;
+        bottom: 10.742vw;
         font-size: rem(22px);
       }
 
@@ -129,7 +133,7 @@
 
       &--mobile {
 
-        @media #{$tablet_land__1024} {
+        @media #{$desktop__1280} {
           display: none;
         }
       }
@@ -137,7 +141,7 @@
       &--desktop {
         display: none;
 
-        @media #{$tablet_land__1024} {
+        @media #{$desktop__1280} {
           display: block;
           padding-top: 0;
         }
@@ -495,14 +499,17 @@
         content: 'Zalety';
         display: block;
         position: absolute;
-        left: -20px;
-        top: -25px;
+        // top: -25px;
+        // left: -20px;
+        top: -7.813vw;
+        left: 6.25%;
         color: $shakespeare;
         font-size: rem(16px);
 
         @media #{$mobile_land__640} {
           font-size: rem(18px);
-          top: -30px;
+          // top: -30px;
+          top: -4.688vw;
         }
 
         @media #{$tablet__768} {
@@ -511,17 +518,21 @@
 
         @media #{$tablet_land__1024} {
           font-size: rem(22px);
-          top: -35px;
+          // top: -35px;
+          top: -3.418vw;
         }
 
         @media #{$desktop__1280} {
           font-size: rem(24px);
-          top: -40px;
-          left: -30px;
+          // top: -40px;
+          // left: -30px;
+          left: -2.34375%;
+          top: -3.125vw;
         }
 
         @media #{$large__screens__1440} {
-          top: -45px;
+          // top: -45px;
+          top: 3.125vw;
         }
 
         @media #{$large__screens__1440} {
@@ -534,8 +545,10 @@
 
         @media #{$HD__screens__1920} {
           font-size: rem(30px);
-          top: -50px;
-          left: -30px;
+          // top: -50px;
+          // left: -30px;
+          top: -2.604vw;
+          left: -1.5625%;
         }
       }
 
@@ -622,49 +635,64 @@
 
     &-content {
       position: absolute;
-      top: 10px;
-      left: 20px;
+      // top: 10px;
+      // left: 20px;
+      top: 3.125%;
+      left: 6.250vw;
       padding: rem(10px 10px 10px 0);
       border-top: 1px solid $shakespeare;
       border-right: 1px solid $shakespeare;
       text-align: right;
 
       @media #{$mobile_land__640} {
-        top: 100px;
-        left: 40px;
+        // top: 100px;
+        // left: 40px;
+        top: 15.625vw;
+        left: 6.25%;
         padding: rem(15px 15px 15px 0);
       }
 
       @media #{$tablet__768} {
-        left: 60px;
+        // left: 60px;
+        left: 7.8125%;
         padding: rem(18px 18px 18px 0);
       }
 
       @media #{$tablet_land__1024} {
-        left: 70px;
-        top: 230px;
+        // top: 230px;
+        // left: 70px;
+        top: 22.461vw;
+        left: 6.8359375%;
       }
 
       @media #{$desktop__1280} {
-        left: 120px;
-        top: 300px;
+        // top: 300px;
+        // left: 120px;
+        top: 23.438vw;
+        left: 9.375%;
         padding: rem(20px 20px 20px 0);
       }
 
       @media #{$large__screens__1440} {
-        left: 150px;
-        top: 340px;
+        // top: 340px;
+        // left: 150px;
+        top: 23.611vw;
+        left: 10.416666666666667%;
         padding: rem(24px 24px 24px 0);
       }
 
       @media #{$full__screens__1600} {
-        left: 179px;
-        top: 390px;
+        // top: 390px;
+        // left: 179px;
+        top: 24.375vw;
+        left: 11.1875%;
       }
 
       @media #{$HD__screens__1920} {
-        top: 470px;
-        left: 270px;
+        // top: 470px;
+        // left: 270px;
+        top: 24.479vw;
+        left: 14.0625%;
         transform: translateX(-10%);
         padding-top: rem(30px);
         padding-right: rem(40px);
@@ -672,8 +700,10 @@
 
       @media #{$max__screen__2560} {
         top: auto;
-        bottom: 500px;
-        left: 440px;
+        // bottom: 500px;
+        // left: 440px;
+        bottom: 19.531vw;
+        left: 17.1875%;
       }
     }
 
