@@ -1271,21 +1271,31 @@
         }
 
         @media #{$desktop__1280} {
+          top: 140px;
+          right: 100px;
           padding: 20px 0 20px 20px;
         }
 
         @media #{$large__screens__1440} {
+          top: 155px;
+          right: 110px;
           padding: 24px 0 24px 24px;
         }
 
         @media #{$full__screens__1600} {
-
+          top: 160px;
+          right: 150px;
         }
 
         @media #{$HD__screens__1920} {
           top: 195px;
           right: 130px;
           padding: 30px 0 60px 30px;
+        }
+
+        @media #{$max__screen__2560} {
+          top: 300px;
+          right: 300px;
         }
       }
 
