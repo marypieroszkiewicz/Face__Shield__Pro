@@ -144,7 +144,7 @@
 .btn-toggle {
   position: absolute;
   top: 18px;
-  right: rem(20px);
+  right: 20px;
   z-index: 4;
 
   &:hover .hamburger__line {
@@ -152,11 +152,11 @@
   }
 
   @media #{$mobile_land__640} {
-    right: rem(40px);
+    right: 40px;
   }
 
   @media #{$tablet__768} {
-    right: rem(60px);
+    right: 60px;
   }
 
   @media #{$tablet_land__1024} {
@@ -309,11 +309,14 @@
   &__pro {
     position: absolute;
     width: 35%;
-    top: 90px;
-    left: 10px;
+    // top: 90px;
+    top: 28.125vw;
+    // left: 10px;
+    left: 3.125%;
 
     @media #{$mobile_land__640} {
-      top: 85px;
+      // top: 85px;
+      top: 13.281vw;
       left: 40px;
     }
 
