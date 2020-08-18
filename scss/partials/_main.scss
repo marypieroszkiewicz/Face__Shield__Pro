@@ -1148,6 +1148,7 @@
       width: 100vw;
       left: 50%;
       transform: translateX(-50%);
+      padding-bottom: calc(1730 / 1920 * 100%);
     }
 
     &-content {
