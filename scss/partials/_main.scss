@@ -1414,36 +1414,48 @@
         }
 
         @media #{$tablet_land__1024} {
-          top: 90px;
-          right: 50px;
+          //top: 90px;
+          //right: 50px;
+          top: 8.789vw;
+          right: 4.8828125%;
         }
 
         @media #{$desktop__1280} {
-          top: 140px;
-          right: 100px;
+          //top: 140px;
+          //right: 100px;
+          top: 10.938vw;
+          right: 7.8125%;
           padding: rem(20px 0 20px 20px);
         }
 
         @media #{$large__screens__1440} {
-          top: 155px;
-          right: 110px;
+          //top: 155px;
+          //right: 110px;
+          top: 10.764vw;
+          right: 7.63888888888889%;
           padding: rem(24px 0 24px 24px);
         }
 
         @media #{$full__screens__1600} {
-          top: 160px;
-          right: 150px;
+          //top: 160px;
+          //right: 150px;
+          top: 10vw;
+          right: 9.375%;
         }
 
         @media #{$HD__screens__1920} {
-          top: 195px;
-          right: 130px;
+          //top: 195px;
+          //right: 130px;
+          top: 10.156vw;
+          right: 6.770833333333333%;
           padding: rem(30px 0 60px 30px);
         }
 
         @media #{$max__screen__2560} {
-          top: 300px;
-          right: 300px;
+          //top: 300px;
+          //right: 300px;
+          top: 11.719vw;
+          right: 11.71875%;
         }
       }
 
