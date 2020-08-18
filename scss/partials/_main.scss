@@ -1366,13 +1366,19 @@
         }
 
         @media #{$tablet__768} {
+          left: 40px;
+          bottom: 45px;
           padding: 18px 18px 18px 0;
         }
 
         @media #{$tablet_land__1024} {
+          left: 65px;
+          bottom: 100px;
         }
 
         @media #{$desktop__1280} {
+          left: 115px;
+          bottom: 160px;
           padding: 20px 20px 20px 0;
         }
 
@@ -1381,13 +1387,19 @@
         }
 
         @media #{$full__screens__1600} {
-
+          left: 140px;
+          bottom: 175px;
         }
 
         @media #{$HD__screens__1920} {
           left: 290px;
           bottom: 163px;
           padding: 60px 30px 30px 0;
+        }
+
+        @media #{$max__screen__2560} {
+          left: 495px;
+          bottom: 300px;
         }
       }
     }
