@@ -378,53 +378,71 @@
   &__light {
     position: absolute;
     width: 35%;
-    top: 123px;
-    right: 10px;
+    // top: 123px;
+    // right: 10px;
+    top: 38.438vw;
+    right: 3.125%;
 
     @media #{$mobile_land__640} {
-      top: 132px;
-      right: 40px;
+      // top: 132px;
+      // right: 40px;
+      top: 20.625vw;
+      right: 6.25%;
     }
 
     @media #{$tablet__768} {
       width: 30%;
-      top: 155px;
-      right: 60px;
+      // top: 155px;
+      // right: 60px;
+      top: 20.182vw;
+      right: 7.8125%;
     }
 
     @media #{$tablet_land__1024} {
       width: 20%;
-      top: 379px;
-      right: 30px;
+      // top: 379px;
+      // right: 30px;
+      top: 37.012vw;
+      right: 2.9296875%;
     }
 
     @media #{$desktop__1280} {
       width: 18%;
-      top: 477px;
-      right: 55px;
+      // top: 477px;
+      // right: 55px;
+      top: 37.266vw;
+      right: 4.296875%;
     }
 
     @media #{$large__screens__1440} {
       width: 15%;
-      top: 538px;
-      right: 105px;
+      // top: 538px;
+      // right: 105px;
+      top: 37.361vw;
+      right: 7.291666666666667%;
     }
 
     @media #{$full__screens__1600} {
       width: 13%;
-      top: 600px;
-      right: 155px;
+      // top: 600px;
+      // right: 155px;
+      top: 37.500vw;
+      right: 9.6875%;
     }
 
     @media #{$HD__screens__1920} {
       width: 10%;
-      top: 720px;
-      right: 240px;
+      // top: 720px;
+      // right: 240px;
+      top: 37.500vw;
+      right: 12.5%;
     }
 
     @media #{$max__screen__2560} {
-      top: 950px;
-      right: 334px;
+      // top: 950px;
+      // right: 334px;
+      top: 37.109vw;
+      right: 13.046875%;
     }
   }
 
