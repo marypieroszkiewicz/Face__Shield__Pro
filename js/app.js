@@ -11,6 +11,22 @@ document.addEventListener('DOMContentLoaded', () => {
     this.classList.toggle('btn-toggle--toggled');
   });
 
+  /* ---------------------------------------------------- */
+  /* ----- CHANGE COLOR OF NAVBAR ON SCROLL ----- */
+  /* ---------------------------------------------------- */
+
+  document.addEventListener("scroll", function() {
+    const navigation = document.querySelector('.navigation');
+    const navigationHeight = 100;
+
+    const distanceFromTop = Math.abs(
+        document.body.getBoundingClientRect().top
+    );
+
+    if (distanceFromTop >=navigationHeight) navigation.classList.add('scrolling-active');
+    else navigation.classList.remove('scrolling-active');
+  });
+
 
   /* ---------------------------------------------------- */
   /* ----- HIGHLIGHT CURRENT PAGE ACTIVE MENU ITEM ----- */

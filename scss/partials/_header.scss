@@ -66,6 +66,15 @@
 
   @media #{$tablet_land__1024} {
     background-color: transparent;
+    transition: background-color 0.4s ease-out;
+
+    &.scrolling-active {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background-color: $white;
+      z-index: 9999;
+    }
   }
 
   @media #{$desktop__1280} {
