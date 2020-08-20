@@ -13,4 +13,229 @@
 
 // ----- End Of Clearfix -----
 
+// --- main__seventh & main__tenth content ---
+
+@mixin shield-box {
+
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+
+    @media #{$max__screen__2560} {
+      position: relative;
+      width: 100vw;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+
+    &-title {
+      margin: 0 auto;
+      padding: rem(40px 0);
+      width: 50%;
+
+      @media #{$mobile_land__640} {
+        width: 35%;
+        padding: rem(50px 0);
+      }
+
+      @media #{$tablet_land__1024} {
+        width: 30%;
+        padding: rem(60px 0);
+      }
+
+      @media #{$desktop__1280} {
+        width: 25%;
+        padding: rem(75px 0);
+      }
+
+      @media #{$HD__screens__1920} {
+        padding: rem(85px 0);
+        width: 23.177083333333334%;
+      }
+    }
+
+    &-content {
+      display: flex;
+      // flex-wrap: wrap;
+      flex-direction: column;
+      padding-bottom: 40px;
+
+      @media #{$mobile_land__640} {
+        flex-direction: row;
+        padding: 0 20px 40px;
+      }
+
+      @media #{$tablet__768} {
+        padding: 0 40px 40px;
+      }
+
+      @media #{$tablet_land__1024} {
+        padding: rem(0 50px 50px);
+      }
+
+      @media #{$HD__screens__1920} {
+        margin: 0;
+        padding: rem(0 133px 96px);
+      }
+
+      &__box {
+        border: 3px solid $white;
+        border-radius: 10px;
+        // width: calc(100% - 40px);
+        width: calc(100% - 80px);
+        margin: rem(0 auto 20px);
+        cursor: pointer;
+
+        @media #{$mobile_land__640} {
+          // width: calc(100% - 80px);
+          // margin: rem(0 auto 40px);
+          width: calc(100% / 3);
+          margin: rem(0 20px 0 0);
+        }
+
+        @media #{$tablet__768} {
+          // width: calc(100% - 120px);
+          // margin: rem(0 auto 60px);
+          // margin: rem(0 20px 0 0);
+        }
+
+        @media #{$tablet_land__1024} {
+          // width: calc(100% / 3);
+          margin: rem(0 30px 0 0);
+        }
+
+        @media #{$HD__screens__1920} {
+          width: calc(100% / 3);
+          margin: rem(0 156px 0 0);
+        }
+
+        &--3 {
+          margin: 0 auto;
+
+          // @media #{$mobile_land__640} {
+          //   margin: auto;
+          // }
+
+          @media #{$tablet_land__1024} {
+                margin-right: 0;
+          }
+        }
+
+        &:hover {
+          filter: invert(0) sepia(0.5) saturate(13) hue-rotate(104.4deg) brightness(1.2);
+        }
+      }
+
+      &__graphics {
+        padding: rem(35px 0);
+
+        &--1 {
+
+          @media #{$mobile_land__640} {
+            padding-top: rem(50px);
+          }
+
+          @media #{$tablet__768} {
+            padding-top: rem(47px);
+          }
+
+          @media #{$tablet_land__1024} {
+            padding-top: rem(62px);
+          }
+
+          @media #{$desktop__1280} {
+            padding-top: rem(68px);
+          }
+
+          @media #{$HD__screens__1920} {
+            padding-top: rem(67px);
+          }
+        }
+      }
+
+      &__img {
+        margin: 0 auto;
+
+        &--1 {
+          width: 30%;
+
+          @media #{$mobile_land__640} {
+            width: 31%;
+          }
+
+          @media #{$tablet__768} {
+            width: 29%;
+          }
+
+          @media #{$tablet_land__1024} {
+            width: 35%;
+          }
+
+          @media #{$HD__screens__1920} {
+            width: auto;
+          }
+        }
+
+        &--2 {
+          width: 50%;
+
+          @media #{$tablet__768} {
+            width: 45%;
+          }
+
+          @media #{$tablet_land__1024} {
+            width: 57%;
+          }
+
+          @media #{$HD__screens__1920} {
+            width: auto;
+          }
+        }
+
+        &--3 {
+          width: 70%;
+
+          @media #{$mobile_land__640} {
+            width: 68%;
+          }
+
+          @media #{$tablet__768} {
+            width: 61%;
+          }
+
+          @media #{$tablet_land__1024} {
+            width: 75%;
+          }
+
+          @media #{$HD__screens__1920} {
+            width: auto;
+          }
+        }
+      }
+
+      &__description {
+        text-align: center;
+        color: $white;
+        white-space: pre-line;
+        text-transform: uppercase;
+        font-size: rem(20px);
+        padding-top: rem(30px);
+
+        @media #{$mobile_land__640} {
+          // font-size: rem(25px);
+        }
+
+        @media #{$tablet__768} {
+          font-size: rem(25px);
+        }
+
+        @media #{$HD__screens__1920} {
+          padding-top: rem(51px);
+        }
+      }
+    }
+}
+
+// --- end of main__seventh & main__tenth content ---
+
 // ----- END OF MIXINS -----
