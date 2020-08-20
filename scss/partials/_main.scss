@@ -1123,6 +1123,7 @@
     &-content {
       display: flex;
       flex-wrap: wrap;
+      padding-bottom: 40px;
 
       @media #{$tablet_land__1024} {
         flex-wrap: nowrap;
@@ -1137,11 +1138,12 @@
       &__box {
         border: 3px solid $white;
         border-radius: 10px;
-        width: calc(100% - 40px);
+        // width: calc(100% - 40px);
+        width: calc(100% - 80px);
         margin: rem(0 auto 20px);
 
         @media #{$mobile_land__640} {
-          width: calc(100% - 80px);
+          // width: calc(100% - 80px);
           margin: rem(0 auto 40px);
         }
 
@@ -1161,6 +1163,7 @@
         }
 
         &--3 {
+          margin: 0 auto;
           @media #{$tablet_land__1024} {
             margin-right: 0;
           }
@@ -1190,7 +1193,8 @@
         margin: 0 auto;
 
         &--1 {
-          width: 35%;
+          // width: 35%;
+          width: 30%;
 
           @media #{$mobile_land__640} {
             width: 25%;
@@ -1206,7 +1210,8 @@
         }
 
         &--2 {
-          width: 55%;
+          // width: 55%;
+          width: 50%;
 
           @media #{$mobile_land__640} {
             width: 45%;
@@ -1226,7 +1231,8 @@
         }
 
         &--3 {
-          width: 80%;
+          // width: 80%;
+          width: 70%;
 
           @media #{$mobile_land__640} {
             width: 70%;
