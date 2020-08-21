@@ -122,6 +122,21 @@ input[type="checkbox"]:checked + label::before {
       }
     }
 
+    &-area {
+      background-color: transparent;
+      border: none;
+      border-bottom: 1px solid $viking;
+      resize: none;
+      padding: rem(16px);
+
+      &:focus {
+        border-bottom: 1px solid $viking;
+      }
+    }
+
+
+
+
     &-col {
       display: flex;
       flex-direction: column;
