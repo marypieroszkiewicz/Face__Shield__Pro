@@ -111,6 +111,17 @@ input[type="checkbox"]:checked + label::before {
       }
     }
 
+    &-input {
+      border: 0;
+      outline: 0;
+      background-color: transparent;
+      border-bottom: 1px solid $viking;
+
+      &:focus {
+        border-bottom: 1px solid $viking;
+      }
+    }
+
     &-col {
       display: flex;
       flex-direction: column;
