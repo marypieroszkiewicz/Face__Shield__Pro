@@ -52,48 +52,6 @@ h1 {
   margin: 0;
 }
 
-input::-webkit-outer-spin-button,
-input::-webkit-inner-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
-}
-
-input[type="number"] {
-  -moz-appearance: textfield;
-}
-
-input[type="checkbox"] {
-  display: none;
-}
-
-input[type="checkbox"] + label {
-  color: black;
-  display: inline-flex;
-}
-
-input[type="checkbox"] + label::before {
-  content: "";
-  display: inline-block;
-  width: 14px;
-  height: 14px;
-  cursor: pointer;
-  //box-shadow: 0 0 0 4px $white, 0 0 0 6px $bombay;
-  border-radius: 2px;
-  background: $white;
-  transform: scale(0.8);
-  margin: 3px 0 0 4px
-}
-
-input[type="checkbox"]:checked + label::before {
-  content: "";
-  width: 14px;
-  height: 14px;
-  //background: $red-orange;
-  //box-shadow: 0 0 0 4px $white, 0 0 0 6px $bombay;
-  transform: scale(0.8);
-  margin-top: 3px;
-}
-
 button {
   background: none;
   border: 0;

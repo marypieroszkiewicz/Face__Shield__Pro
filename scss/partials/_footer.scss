@@ -64,6 +64,7 @@
     font-size: rem(16px);
     white-space: pre-line;
     color: $dove-gray;
+    padding-bottom: 40px;
 
     @media #{$mobile_land__640} {
       font-size: rem(18px);

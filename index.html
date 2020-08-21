@@ -271,7 +271,38 @@
           05-270 Marki
           NIP: 524-277-21-63
         </div>
-      </div>
+        <form action="" class="footer__form">
+          <div class="footer__form-row">
+            <label class="footer__form-label footer__form-required" for="name">Imię i Nazwisko</label>
+            <input class="footer__form-input" type="text" name="name" required pattern=.{3,} id="name" data-error="Wypełnij to pole">
+          </div>
+
+          <div class="footer__form-row">
+            <label class="footer__form-label footer__form-required" for="email">Adres e-mail</label>
+            <input class="footer__form-input" type="email" name="email" id="email" required data-error="E-mail" pattern="[^@\s]+@[^@\s]+\.[^@\s]+">
+          </div>
+
+          <div class="footer__form-row">
+            <label class="footer__form-label" for="message">Wiadomość</label>
+            <textarea class="contact__form-col__area" name="message" required data-error-text="Musisz wypełnić pole" id="message" cols="30" rows="10"></textarea>
+          </div>
+
+          <div class="footer__form-row">
+            <div class="footer__form-gdpr__privacy">
+              <input id="terms" type="checkbox" required data-error-text="Musisz wypełnić pole" name="terms" class="footer__form-input footer__form-input--check">
+              <label class="footer__form-label" for="terms">
+                <span class="footer__form-label__text">Oświadczam, że zapoznałem się z <a href="polityka-prywatnosci.html" target="_blank" class="footer__form-link">polityką prywatności</a> i informacją o <a href="polityka-prywatnosci.html#data-administrator" target="_blank" class="footer__form-link">Administratorze danych</a></span>
+              </label>
+            </div>
+          </div>
+
+          <div class="honey-row">
+            <label for="honey">Jeżeli jesteś człowiekiem, nie wypełniaj tego pola</label>
+            <input type="text" id="honey" name="honey">
+          </div>
+
+          <button type="submit" class="contact__form-row__btn submit-btn">Wyślij</button>
+        </form>
     </section>
   </footer>
 </section>
