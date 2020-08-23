@@ -19,9 +19,9 @@ input[type="checkbox"] + label::before {
   width: 14px;
   height: 14px;
   cursor: pointer;
-  //box-shadow: 0 0 0 4px $white, 0 0 0 6px $bombay;
+  box-shadow: 0 0 0 4px $black, 0 0 0 6px $viking;
   border-radius: 2px;
-  background: $white;
+  background: $black;
   transform: scale(0.8);
   margin: 3px 0 0 4px
 }
@@ -30,10 +30,17 @@ input[type="checkbox"]:checked + label::before {
   content: "";
   width: 14px;
   height: 14px;
-  //background: $red-orange;
-  //box-shadow: 0 0 0 4px $white, 0 0 0 6px $bombay;
+  background: $viking;
+  box-shadow: 0 0 0 4px $black, 0 0 0 6px $viking;
   transform: scale(0.8);
-  margin-top: 3px;
+  margin-top: rem(3px);
+}
+
+textarea {
+  border: none;
+  background-color: transparent;
+  resize: none;
+  outline: none;
 }
 
 .footer {
@@ -44,59 +51,58 @@ input[type="checkbox"]:checked + label::before {
 
     @media #{$tablet_land__1024} {
       margin: rem(0 40px);
+      width: 60%;
     }
 
     @media #{$HD__screens__1920} {
       margin: 0;
     }
 
-    //&-title {
-    //  font-family: $font-title--bold;
-    //  font-size: rem(40px);
-    //  padding-bottom: rem(38px);
-    //
-    //}
+    &-title {
+      color: $white;
+      font-size: rem(25px);
+      text-align: center;
+      padding-bottom: rem(30px);
 
-    //&-title {
-    //  font-family: $font-title;
-    //  font-size: rem(30px);
-    //  padding-bottom: rem(34px);
-    //  text-align: center;
-    //
-    //  @media #{$mobile_land__640} {
-    //    font-size: rem(40px);
-    //  }
-    //}
+      @media #{$mobile_land__640} {
+        font-size: rem(30px);
+      }
+
+      @media #{$tablet__768} {
+        font-size: rem(35px);
+      }
+    }
+
+    &-content {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
 
     &-row {
       display: flex;
       flex-direction: column;
       justify-content: space-between;
+      width: 100%;
       padding-bottom: rem(22px);
 
       @media #{$mobile_land__640} {
-        flex-direction: row;
+        width: calc(50% - 16px);
+
+        &--3, &--4 {
+          width: 100%;
+        }
       }
 
-      &--3 {
-        flex-direction: column;
+      @media #{$tablet_land__1024} {
       }
 
 
       //&__link {
       //  color: $fun-blue;
       //  text-decoration: underline;
-      //}
-
-      //&__btn {
-      //  color: $white;
-      //  font-size: rem(20px);
-      //  font-family: $font-title--bold;
-      //  background-color: $fun-blue;
-      //  -webkit-box-shadow: -30px 30px 40px 0px rgba(25,96,170,0.21);
-      //  box-shadow: -30px 30px 40px 0px rgba(25,96,170,0.21);
-      //  padding: rem(12px 54px);
-      //  cursor: pointer;
       //}
     }
 
@@ -105,9 +111,10 @@ input[type="checkbox"]:checked + label::before {
       font-size: rem(15px);
       margin-bottom: rem(10px);
 
-      &-text {
+      &__text {
         width: 100%;
         padding-left: rem(21px);
+        color: $white;
       }
     }
 
@@ -116,6 +123,7 @@ input[type="checkbox"]:checked + label::before {
       outline: 0;
       background-color: transparent;
       border-bottom: 1px solid $viking;
+      color: $dove-gray;
 
       &:focus {
         border-bottom: 1px solid $viking;
@@ -127,42 +135,26 @@ input[type="checkbox"]:checked + label::before {
       border: none;
       border-bottom: 1px solid $viking;
       resize: none;
-      padding: rem(16px);
+      padding: rem(16px 0);
+      color: $dove-gray;
 
       &:focus {
         border-bottom: 1px solid $viking;
       }
     }
 
-
-
-
-    &-col {
-      display: flex;
-      flex-direction: column;
-      width: 100%;
-      padding-bottom: rem(15px);
+    &-btn {
+      color: $white;
+      font-size: rem(20px);
+      background-color: $viking;
+      -webkit-box-shadow: -30px 30px 40px 0px rgba(25,96,170,0.21);
+      box-shadow: -30px 30px 40px 0px rgba(25,96,170,0.21);
+      padding: rem(12px 54px);
+      cursor: pointer;
 
       @media #{$mobile_land__640} {
-        width: calc(100% / 2 - 16px);
-      }
-
-      &__lab {
-        //color: $oslo-gray;
-        //font-family: $font-text;
-        font-size: rem(15px);
-        margin-bottom: rem(10px);
-      }
-
-
-      &__area {
-        //border: 1px solid $catskill-white;
-        resize: none;
-        padding: rem(16px);
-
-        &:focus {
-          //border: 1px solid $catskill-white;
-        }
+        width: 50%;
+        margin: 0 auto;
       }
     }
 

@@ -20,11 +20,16 @@
 
     @media #{$tablet_land__1024} {
       padding: rem(50px);
+      flex-direction: row;
     }
 
     @media #{$HD__screens__1920} {
       padding: rem(79px 97px 0);
     }
+  }
+
+  &__wrap {
+    width: 40%;
   }
 
   &__logo {
@@ -39,7 +44,8 @@
     }
 
     @media #{$tablet_land__1024} {
-      width: 35%;
+      //width: 35%;
+      width: 90%;
     }
 
     @media #{$desktop__1280} {
