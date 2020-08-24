@@ -145,11 +145,12 @@ textarea {
       color: $dove-gray;
 
       &:focus {
-        border-bottom: 1px solid $viking;
+        border-bottom: 1px solid $pacific-blue;
+        outline: none;
       }
     }
 
-    &-area {
+    &-textarea {
       background-color: transparent;
       border: none;
       border-bottom: 1px solid $viking;
@@ -158,7 +159,7 @@ textarea {
       color: $dove-gray;
 
       &:focus {
-        border-bottom: 1px solid $viking;
+        border-bottom: 1px solid $pacific-blue;
       }
     }
 
@@ -199,10 +200,14 @@ textarea {
 /* walidacja formularza JS */
 /* ---------------------------------------------------- */
 
-.footer__form .field-error,
 .footer__form .field-error {
   border-bottom: 1px solid $red-ribbon;
   outline: none;
+
+  &:focus {
+    outline: 0;
+    border-bottom: 1px solid $red-ribbon;
+  }
 }
 
 .form-error-text {
@@ -210,8 +215,8 @@ textarea {
   font-size: 0.8rem;
 }
 
-.footer__form__textarea.field-error {
-  border: 1px solid $red-ribbon;
+.footer__form-textarea.field-error {
+  border-bottom: 1px solid $red-ribbon;
 }
 
 .form-error-inline .form-error-text {
@@ -222,7 +227,7 @@ textarea {
   display: inline-block;
   font-family: sans-serif;
   padding: 1rem 2rem;
-  color: red;
+  color: $red-ribbon;
 }
 
 @media screen and (max-width: 500px) {
