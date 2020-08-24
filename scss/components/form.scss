@@ -199,8 +199,8 @@ textarea {
 /* walidacja formularza JS */
 /* ---------------------------------------------------- */
 
-.contact__form .field-error,
-.contact__form .field-error {
+.footer__form .field-error,
+.footer__form .field-error {
   border-bottom: 1px solid $red-ribbon;
   outline: none;
 }
@@ -210,7 +210,7 @@ textarea {
   font-size: 0.8rem;
 }
 
-.contact__form-col__area.field-error {
+.footer__form__textarea.field-error {
   border: 1px solid $red-ribbon;
 }
 
@@ -218,15 +218,15 @@ textarea {
   display: none;
 }
 
-.contact__form .send-error {
-  display:inline-block;
+.footer__form .send-error {
+  display: inline-block;
   font-family: sans-serif;
-  padding:1rem 2rem;
-  color:red;
+  padding: 1rem 2rem;
+  color: red;
 }
 
 @media screen and (max-width: 500px) {
-  .contact__form .send-error {
+  .footer__form .send-error {
     text-align: center;
     display: block;
   }
