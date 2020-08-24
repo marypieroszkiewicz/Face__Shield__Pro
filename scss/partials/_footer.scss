@@ -19,8 +19,12 @@
     }
 
     @media #{$tablet_land__1024} {
-      padding: rem(50px);
+      padding: rem(40px);
       flex-direction: row;
+    }
+
+    @media #{$desktop__1280} {
+      padding: rem(50px);
     }
 
     @media #{$HD__screens__1920} {
@@ -30,6 +34,10 @@
 
   &__wrap {
     width: 40%;
+
+    @media #{$large__screens__1440} {
+      width: 50%;
+    }
   }
 
   &__logo {
@@ -49,19 +57,15 @@
     }
 
     @media #{$desktop__1280} {
-      width: 30%;
+      width: 80%;
     }
 
     @media #{$large__screens__1440} {
-      width: 27%;
-    }
-
-    @media #{$full__screens__1600} {
-      width: 25%;
+      width: 60%;
     }
 
     @media #{$HD__screens__1920} {
-      width: 20.46875%;
+      width: 50%;
     }
   }
 

@@ -54,6 +54,11 @@ textarea {
       width: 60%;
     }
 
+    @media #{$large__screens__1440} {
+      width: 50%;
+      margin: 0;
+    }
+
     @media #{$HD__screens__1920} {
       margin: 0;
     }
@@ -70,6 +75,14 @@ textarea {
 
       @media #{$tablet__768} {
         font-size: rem(35px);
+      }
+
+      @media #{$desktop__1280} {
+        font-size: rem(40px);
+      }
+
+      @media #{$large__screens__1440} {
+        text-align: left;
       }
     }
 
@@ -90,15 +103,21 @@ textarea {
 
       @media #{$mobile_land__640} {
         width: calc(50% - 16px);
+      }
 
-        &--3, &--4 {
+      @media #{$desktop__1280} {
+        width: calc(50% - 20px);
+      }
+
+      @media #{$large__screens__1440} {
+        width: calc(50% - 30px);
+      }
+
+      &--3, &--4 {
+        @media #{$mobile_land__640} {
           width: 100%;
         }
       }
-
-      @media #{$tablet_land__1024} {
-      }
-
 
       //&__link {
       //  color: $fun-blue;
@@ -155,6 +174,14 @@ textarea {
       @media #{$mobile_land__640} {
         width: 50%;
         margin: 0 auto;
+      }
+
+      @media #{$desktop__1280} {
+        width: 35%;
+        margin: 0 0 auto;
+      }
+
+      @media #{$large__screens__1440} {
       }
     }
 
