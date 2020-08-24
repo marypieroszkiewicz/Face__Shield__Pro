@@ -33,15 +33,18 @@
   }
 
   &__wrap {
-    width: 40%;
+
+    @media #{$tablet_land__1024} {
+      width: 40%;
+    }
 
     @media #{$large__screens__1440} {
       width: 50%;
     }
 
-    @media #{$HD__screens__1920} {
-      width: 60%;
-    }
+    //@media #{$HD__screens__1920} {
+    //  width: 60%;
+    //}
   }
 
   &__logo {

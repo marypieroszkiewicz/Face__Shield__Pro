@@ -118,11 +118,6 @@ textarea {
           width: 100%;
         }
       }
-
-      //&__link {
-      //  color: $fun-blue;
-      //  text-decoration: underline;
-      //}
     }
 
     &-label {
@@ -134,6 +129,18 @@ textarea {
         width: 100%;
         padding-left: rem(21px);
         color: $white;
+
+        @media #{$mobile_land__640} {
+          padding-top: rem(4px);
+        }
+
+        @media #{$tablet_land__1024} {
+          padding-top: 0;
+        }
+
+        @media #{$desktop__1280} {
+          padding-top: rem(4px);
+        }
       }
     }
 
@@ -163,6 +170,11 @@ textarea {
       }
     }
 
+    &-link {
+      color: $viking;
+      text-decoration: underline;
+    }
+
     &-btn {
       color: $white;
       font-size: rem(20px);
@@ -180,9 +192,6 @@ textarea {
       @media #{$desktop__1280} {
         width: 35%;
         margin: 0 0 auto;
-      }
-
-      @media #{$large__screens__1440} {
       }
     }
 
