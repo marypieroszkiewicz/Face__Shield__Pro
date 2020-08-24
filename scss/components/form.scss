@@ -184,6 +184,10 @@ textarea {
       padding: rem(12px 54px);
       cursor: pointer;
 
+      &:hover {
+        background-color: $pacific-blue;
+      }
+
       @media #{$mobile_land__640} {
         width: 50%;
         margin: 0 auto;
