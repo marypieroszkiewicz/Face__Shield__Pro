@@ -1,10 +1,10 @@
 gsap.registerPlugin(ScrollTrigger);
 
 // You can use a ScrollTrigger in a tween or timeline
-gsap.to(".rubber", {
+gsap.to(".main__second-rubber", {
   scaleX: 1.2,
   scrollTrigger: {
-    trigger: ".rubber",
+    trigger: ".main__second-rubber",
     start: "top center",
 //    end: "+=500",
     pin: false,
