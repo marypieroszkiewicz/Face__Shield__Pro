@@ -151,19 +151,20 @@
 
   &__second {
     position: relative;
-    background-image: url("../images/main__second-bg.png");
-    background-repeat: no-repeat;
-    background-size: cover;
+    //background-image: url("../images/main__second-bg.png");
+    //background-repeat: no-repeat;
+    //background-size: cover;
     width: 100%;
-    height: 0;
-    padding-bottom: calc(777 / 1920 * 100%);
+    overflow: hidden;
+    //height: 0;
+    //padding-bottom: calc(777 / 1920 * 100%);
 
-    @media #{$max__screen__2560} {
-      width: 100vw;
-      left: 50%;
-      transform: translateX(-50%);
-      padding-bottom: calc(1035 / 1920 * 100%);
-    }
+    //@media #{$max__screen__2560} {
+    //  width: 100vw;
+    //  left: 50%;
+    //  transform: translateX(-50%);
+    //  padding-bottom: calc(1035 / 1920 * 100%);
+    //}
 
     &-title {
       color: $white;
