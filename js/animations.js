@@ -9,6 +9,6 @@ gsap.to(".rubber", {
 //    end: "+=500",
     pin: false,
 //    scrub: true,
-    markers: true
+//     markers: true
   }
 });
