@@ -8,7 +8,7 @@ gsap.to(".rubber", {
     start: "top center",
 //    end: "+=500",
     pin: false,
-//    scrub: true,
+   scrub: true,
 //     markers: true
   }
 });
