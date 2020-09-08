@@ -761,18 +761,75 @@
       padding-bottom: calc(1440 / 1920 * 100%);
     }
 
-    &-content {
+    &-wrap {
+      display: block;
       position: absolute;
+
+      &:hover > .main__sixth-content {
+        display: block;
+      }
+
+      &:hover > .main__sixth-hoverable, .main__sixth-content {
+        display: none;
+      }
+
+      &--1 {
+        top: 45px;
+        left: 75px;
+
+        @media #{$HD__screens__1920} {
+          top: 300px;
+          left: 500px;
+        }
+      }
+
+      &--2 {
+        top: 30px;
+        left: 163px;
+      }
+
+      &--3 {
+        top: 45px;
+        right: 88px;
+      }
+
+      &--4 {
+        bottom: 42px;
+        left: 100px;
+      }
+    }
+
+    &-hoverable {
+      width: 15px;
+      display: inline-block;
+      //position: absolute;
+
+      &--1 {
+        //top: 45px;
+        //left: 75px;
+      }
+
+      @media #{$HD__screens__1920} {
+        width: 30px;
+      }
+    }
+
+    &-content {
+      //position: absolute;
       border-top: 1px solid $white;
 
       &--1 {
         // top: 4px;
         // left: 30px;
-        top: 1.250vw;
-        left: 9.375%;
-        padding: rem(10px 10px 0 0);
+
+        //top: 1.250vw;
+        //left: 9.375%;
+
+        padding: rem(5px 5px 0 0);
         border-right: 1px solid $white;
         text-align: right;
+        transform: translate(-60px, -40px);
+
 
         @media #{$mobile_land__640} {
           // top: 30px;
@@ -838,8 +895,9 @@
         // right: 65px;
         top: 1.563vw;
         right: 20.3125%;
-        padding: rem(10px 0 0 10px);
+        padding: rem(5px 0 0 5px);
         border-left: 1px solid $white;
+        transform: translate(0px, -28px);
 
         @media #{$mobile_land__640} {
           // top: 40px;
@@ -908,8 +966,9 @@
         // right: 10px;
         top: 17.188vw;
         right: 3.125%;
-        padding: rem(10px 0 0 10px);
+        padding: rem(5px 0 0 5px);
         border-left: 1px solid $white;
+        transform: translate(84px, -40px);
 
         @media #{$mobile_land__640} {
           // top: 80px;
@@ -979,10 +1038,11 @@
         bottom: 0.938vw;
         left: 11.875%;
         text-align: right;
-        padding: rem(0 10px 10px 0);
+        padding: rem(0 5px 5px 0);
         border-top: 0;
         border-bottom: 1px solid $white;
         border-right: 1px solid $white;
+        transform: translate(-63px, 40px);
 
         @media #{$mobile_land__640} {
           // bottom: 50px;
@@ -1501,6 +1561,11 @@
     }
   }
 }
+
+
+
+
+
 
 
 @media #{$mobile_land__640} {
