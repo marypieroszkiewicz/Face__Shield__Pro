@@ -851,22 +851,142 @@
 
         top: 9.375vw;
         left: 50.9375%;
+
+        @media #{$mobile_land__640} {
+          top: 65px;
+          left: 312px;
+        }
+
+        @media #{$tablet__768} {
+          top: 85px;
+          left: 375px;
+        }
+
+        @media #{$tablet_land__1024} {
+          top: 120px;
+          left: 500px;
+        }
+
+        @media #{$desktop__1280} {
+          top: 150px;
+          left: 625px;
+        }
+
+        @media #{$large__screens__1440} {
+          top: 170px;
+          left: 710px;
+        }
+
+        @media #{$full__screens__1600} {
+          top: 190px;
+          left: 785px;
+        }
+
+        @media #{$HD__screens__1920} {
+          top: 240px;
+          left: 945px;
+        }
+
+        @media #{$max__screen__2560} {
+          top: 340px;
+          left: 1260px;
+        }
       }
 
       &--3 {
-        top: 45px;
-        right: 88px;
+        // top: 45px;
+        // right: 88px;
 
         top: 14.063vw;
         right: 27.5%;
+
+        @media #{$mobile_land__640} {
+          top: 80px;
+          right: 215px;
+        }
+
+        @media #{$tablet__768} {
+          top: 100px;
+          right: 260px;
+        }
+
+        @media #{$tablet_land__1024} {
+          top: 145px;
+          right: 350px;
+        }
+
+        @media #{$desktop__1280} {
+          top: 185px;
+          right: 420px;
+        }
+
+        @media #{$large__screens__1440} {
+          top: 210px;
+          right: 480px;
+        }
+
+        @media #{$full__screens__1600} {
+          top: 240px;
+          right: 540px;
+        }
+
+        @media #{$HD__screens__1920} {
+          top: 280px;
+          right: 660px;
+        }
+
+        @media #{$max__screen__2560} {
+          top: 380px;
+          right: 920px;
+        }
       }
 
       &--4 {
-        bottom: 42px;
-        left: 100px;
+        // bottom: 42px;
+        // left: 100px;
 
         bottom: 13.125vw;
         left: 31.25%;
+
+        @media #{$mobile_land__640} {
+          bottom: 100px;
+          left: 195px;
+        }
+
+        @media #{$tablet__768} {
+          bottom: 125px;
+          left: 235px;
+        }
+
+        @media #{$tablet_land__1024} {
+          bottom: 175px;
+          left: 315px;
+        }
+
+        @media #{$desktop__1280} {
+          bottom: 220px;
+          left: 400px;
+        }
+
+        @media #{$large__screens__1440} {
+          bottom: 255px;
+          left: 450px;
+        }
+
+        @media #{$full__screens__1600} {
+          bottom: 290px;
+          left: 500px;
+        }
+
+        @media #{$HD__screens__1920} {
+          bottom: 350px;
+          left: 600px;
+        }
+
+        @media #{$max__screen__2560} {
+          bottom: 480px;
+          left: 800px;
+        }
       }
     }
 
